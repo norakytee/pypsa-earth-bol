@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 <!--
 SPDX-FileCopyrightText:  PyPSA-Earth and PyPSA-Eur Authors
 
@@ -456,3 +457,7 @@ The documentation is available here: [documentation](https://pypsa-earth.readthe
     </td></tr>
 </table>
 <!-- readme: collaborators,contributors,restyled-commits/- -end -->
+=======
+# pypsa-earth-bolivia
+Version 3.0.0 of pypsa-earth adapted to Bolivia
+>>>>>>> cdfcc4e9eccc5de1a2c61b343ffe78eda47d77a1
