@@ -228,11 +228,11 @@ def load_powerplants(ppl_fn):
         .drop(columns=["efficiency"])
         .replace({"carrier": carrier_dict})
     )
-    # drop powerplants with null capacity
-    null_ppls = ppl[ppl.p_nom <= 0]
-    if not null_ppls.empty:
-        logger.warning(f"Drop powerplants with null capacity: {list(null_ppls.name)}.")
-        ppl = ppl.drop(null_ppls.index).reset_index(drop=True)
+    #drop powerplants with null capacity
+    #null_ppls = ppl[ppl.p_nom <= 0]
+    # if not null_ppls.empty:
+    #     logger.warning(f"Drop powerplants with null capacity: {list(null_ppls.name)}.")
+    #     ppl = ppl.drop(null_ppls.index).reset_index(drop=True)
     return ppl
 
 

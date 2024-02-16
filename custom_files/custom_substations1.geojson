@@ -1,0 +1,1683 @@
+﻿{
+    "type": "FeatureCollection",
+    "crs": {
+        "type": "name",
+        "properties": {
+            "name": "urn:ogc:def:crs:OGC:1.3:CRS84"
+        }
+    },
+    "features": [
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -64.526253,
+                    -17.211946
+                ]
+            },
+            "properties": {
+                "id": 2116655840,
+                "tags.power": "substation",
+                "Type": "Way",
+                "Country": "BO",
+                "Area": null,
+                "tags.substation": "transmission",
+                "tags.voltage": "500000:230000"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -63.282402,
+                    -17.575242
+                ]
+            },
+            "properties": {
+                "id": 4085709446,
+                "tags.power": "substation",
+                "Type": "Way",
+                "Country": "BO",
+                "Area": null,
+                "tags.substation": null,
+                "tags.voltage": "230000"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -63.217863,
+                    -18.065164
+                ]
+            },
+            "properties": {
+                "id": 4879630621,
+                "tags.power": "substation",
+                "Type": "Way",
+                "Country": "BO",
+                "Area": null,
+                "tags.substation": null,
+                "tags.voltage": "230000"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -63.893004,
+                    -17.394199
+                ]
+            },
+            "properties": {
+                "id": 9346419383,
+                "tags.power": "substation",
+                "Type": "Way",
+                "Country": "BO",
+                "Area": null,
+                "tags.substation": null,
+                "tags.voltage": "230000"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -65.161215,
+                    -16.999072
+                ]
+            },
+            "properties": {
+                "id": 10774344369,
+                "tags.power": "substation",
+                "Type": "Way",
+                "Country": "BO",
+                "Area": null,
+                "tags.substation": null,
+                "tags.voltage": "230000"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -64.516392,
+                    -17.197433
+                ]
+            },
+            "properties": {
+                "id": 10870926811,
+                "tags.power": "substation",
+                "Type": "Way",
+                "Country": "BO",
+                "Area": null,
+                "tags.substation": null,
+                "tags.voltage": "230000"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -63.18877,
+                    -15.945274
+                ]
+            },
+            "properties": {
+                "id": 123355525,
+                "tags.power": "substation",
+                "Type": "Way",
+                "Country": "BO",
+                "Area": null,
+                "tags.substation": null,
+                "tags.voltage": "230000"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -65.210247,
+                    -21.159084
+                ]
+            },
+            "properties": {
+                "id": 124799296,
+                "tags.power": "substation",
+                "Type": "Way",
+                "Country": "BO",
+                "Area": null,
+                "tags.substation": null,
+                "tags.voltage": "230000"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -68.169479,
+                    -16.691566
+                ]
+            },
+            "properties": {
+                "id": 174008184,
+                "tags.power": "substation",
+                "Type": "Way",
+                "Country": "BO",
+                "Area": null,
+                "tags.substation": "transmission",
+                "tags.voltage": "230000;115000"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -65.773168,
+                    -17.156959
+                ]
+            },
+            "properties": {
+                "id": 192581601,
+                "tags.power": "substation",
+                "Type": "Way",
+                "Country": "BO",
+                "Area": null,
+                "tags.substation": null,
+                "tags.voltage": "230000"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -67.923726,
+                    -16.574612
+                ]
+            },
+            "properties": {
+                "id": 201638884,
+                "tags.power": "substation",
+                "Type": "Way",
+                "Country": "BO",
+                "Area": null,
+                "tags.substation": null,
+                "tags.voltage": "230000"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -65.750613,
+                    -17.178102
+                ]
+            },
+            "properties": {
+                "id": 201639226,
+                "tags.power": "substation",
+                "Type": "Way",
+                "Country": "BO",
+                "Area": null,
+                "tags.substation": "transmission",
+                "tags.voltage": "230000;115000"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -62.85447,
+                    -17.822856
+                ]
+            },
+            "properties": {
+                "id": 208073022,
+                "tags.power": "substation",
+                "Type": "Way",
+                "Country": "BO",
+                "Area": null,
+                "tags.substation": null,
+                "tags.voltage": "230000"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -66.220564,
+                    -17.573273
+                ]
+            },
+            "properties": {
+                "id": 208079823,
+                "tags.power": "substation",
+                "Type": "Way",
+                "Country": "BO",
+                "Area": null,
+                "tags.substation": "transmission",
+                "tags.voltage": "500000;230000"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -67.109151,
+                    -17.811603
+                ]
+            },
+            "properties": {
+                "id": 208134530,
+                "tags.power": "substation",
+                "Type": "Way",
+                "Country": "BO",
+                "Area": null,
+                "tags.substation": "transmission",
+                "tags.voltage": "230000;115000"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -65.755479,
+                    -21.42692
+                ]
+            },
+            "properties": {
+                "id": 208143013,
+                "tags.power": "substation",
+                "Type": "Way",
+                "Country": "BO",
+                "Area": null,
+                "tags.substation": "transmission",
+                "tags.voltage": "230000;69000"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -66.11722,
+                    -17.428451
+                ]
+            },
+            "properties": {
+                "id": 208145814,
+                "tags.power": "substation",
+                "Type": "Way",
+                "Country": "BO",
+                "Area": null,
+                "tags.substation": "transmission",
+                "tags.voltage": "230000;115000"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -65.442684,
+                    -17.009819
+                ]
+            },
+            "properties": {
+                "id": 208239835,
+                "tags.power": "substation",
+                "Type": "Way",
+                "Country": "BO",
+                "Area": null,
+                "tags.substation": null,
+                "tags.voltage": "230000"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -63.145837,
+                    -17.533684
+                ]
+            },
+            "properties": {
+                "id": 208259013,
+                "tags.power": "substation",
+                "Type": "Way",
+                "Country": "BO",
+                "Area": null,
+                "tags.substation": null,
+                "tags.voltage": "230000"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -66.14098,
+                    -20.051275
+                ]
+            },
+            "properties": {
+                "id": 208406049,
+                "tags.power": "substation",
+                "Type": "Way",
+                "Country": "BO",
+                "Area": null,
+                "tags.substation": "transmission",
+                "tags.voltage": "230000;115000"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -64.727985,
+                    -21.486837
+                ]
+            },
+            "properties": {
+                "id": 208454375,
+                "tags.power": "substation",
+                "Type": "Way",
+                "Country": "BO",
+                "Area": null,
+                "tags.substation": null,
+                "tags.voltage": "230000"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -62.64138,
+                    -17.060676
+                ]
+            },
+            "properties": {
+                "id": 208479547,
+                "tags.power": "substation",
+                "Type": "Way",
+                "Country": "BO",
+                "Area": null,
+                "tags.substation": null,
+                "tags.voltage": "230000"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -66.803164,
+                    -20.564192
+                ]
+            },
+            "properties": {
+                "id": 208550292,
+                "tags.power": "substation",
+                "Type": "Way",
+                "Country": "BO",
+                "Area": null,
+                "tags.substation": null,
+                "tags.voltage": "230000"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -63.629968,
+                    -17.426749
+                ]
+            },
+            "properties": {
+                "id": 208559846,
+                "tags.power": "substation",
+                "Type": "Way",
+                "Country": "BO",
+                "Area": null,
+                "tags.substation": null,
+                "tags.voltage": "230000"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -65.218687,
+                    -19.001312
+                ]
+            },
+            "properties": {
+                "id": 208565830,
+                "tags.power": "substation",
+                "Type": "Way",
+                "Country": "BO",
+                "Area": null,
+                "tags.substation": "transmission",
+                "tags.voltage": "230000;115000;69000"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -66.114585,
+                    -17.380501
+                ]
+            },
+            "properties": {
+                "id": 208568864,
+                "tags.power": "substation",
+                "Type": "Way",
+                "Country": "BO",
+                "Area": null,
+                "tags.substation": null,
+                "tags.voltage": "115000"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -67.560632,
+                    -15.844503
+                ]
+            },
+            "properties": {
+                "id": 208602917,
+                "tags.power": "substation",
+                "Type": "Way",
+                "Country": "BO",
+                "Area": null,
+                "tags.substation": null,
+                "tags.voltage": "115000"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -67.036498,
+                    -17.713892
+                ]
+            },
+            "properties": {
+                "id": 208607082,
+                "tags.power": "substation",
+                "Type": "Way",
+                "Country": "BO",
+                "Area": null,
+                "tags.substation": null,
+                "tags.voltage": "115000"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -66.575829,
+                    -18.410663
+                ]
+            },
+            "properties": {
+                "id": 208616169,
+                "tags.power": "substation",
+                "Type": "Way",
+                "Country": "BO",
+                "Area": null,
+                "tags.substation": null,
+                "tags.voltage": "115000"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -66.818309,
+                    -18.278069
+                ]
+            },
+            "properties": {
+                "id": 208616516,
+                "tags.power": "substation",
+                "Type": "Way",
+                "Country": "BO",
+                "Area": null,
+                "tags.substation": null,
+                "tags.voltage": "115000"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -67.834986,
+                    -16.28604
+                ]
+            },
+            "properties": {
+                "id": 208629745,
+                "tags.power": "substation",
+                "Type": "Way",
+                "Country": "BO",
+                "Area": null,
+                "tags.substation": null,
+                "tags.voltage": "115000"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -65.948465,
+                    -17.205929
+                ]
+            },
+            "properties": {
+                "id": 208685452,
+                "tags.power": "substation",
+                "Type": "Way",
+                "Country": "BO",
+                "Area": null,
+                "tags.substation": null,
+                "tags.voltage": "115000"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -65.707404,
+                    -19.483256
+                ]
+            },
+            "properties": {
+                "id": 208687016,
+                "tags.power": "substation",
+                "Type": "Way",
+                "Country": "BO",
+                "Area": null,
+                "tags.substation": null,
+                "tags.voltage": "115000"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -67.977121,
+                    -16.041461
+                ]
+            },
+            "properties": {
+                "id": 216166587,
+                "tags.power": "substation",
+                "Type": "Way",
+                "Country": "BO",
+                "Area": null,
+                "tags.substation": null,
+                "tags.voltage": "115000"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -68.18184,
+                    -16.565951
+                ]
+            },
+            "properties": {
+                "id": 216166589,
+                "tags.power": "substation",
+                "Type": "Way",
+                "Country": "BO",
+                "Area": null,
+                "tags.substation": null,
+                "tags.voltage": "115000"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -65.837719,
+                    -18.878811
+                ]
+            },
+            "properties": {
+                "id": 216166592,
+                "tags.power": "substation",
+                "Type": "Way",
+                "Country": "BO",
+                "Area": null,
+                "tags.substation": null,
+                "tags.voltage": "115000"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -65.800775,
+                    -19.607625
+                ]
+            },
+            "properties": {
+                "id": 216166593,
+                "tags.power": "substation",
+                "Type": "Way",
+                "Country": "BO",
+                "Area": null,
+                "tags.substation": "transmission",
+                "tags.voltage": "115000;69000"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -65.85752,
+                    -17.515665
+                ]
+            },
+            "properties": {
+                "id": 216166594,
+                "tags.power": "substation",
+                "Type": "Way",
+                "Country": "BO",
+                "Area": null,
+                "tags.substation": null,
+                "tags.voltage": "115000"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -64.796088,
+                    -14.836302
+                ]
+            },
+            "properties": {
+                "id": 216166595,
+                "tags.power": "substation",
+                "Type": "Way",
+                "Country": "BO",
+                "Area": null,
+                "tags.substation": "transmission",
+                "tags.voltage": "230000;115000"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -65.685776,
+                    -19.520262
+                ]
+            },
+            "properties": {
+                "id": 216166682,
+                "tags.power": "substation",
+                "Type": "Way",
+                "Country": "BO",
+                "Area": null,
+                "tags.substation": "transmission",
+                "tags.voltage": "115000;69000"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -67.156044,
+                    -21.133749
+                ]
+            },
+            "properties": {
+                "id": 216166683,
+                "tags.power": "substation",
+                "Type": "Way",
+                "Country": "BO",
+                "Area": null,
+                "tags.substation": "transmission",
+                "tags.voltage": "230000;115000"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -65.980758,
+                    -17.384384
+                ]
+            },
+            "properties": {
+                "id": 216170930,
+                "tags.power": "substation",
+                "Type": "Way",
+                "Country": "BO",
+                "Area": null,
+                "tags.substation": null,
+                "tags.voltage": "115000"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -65.822969,
+                    -17.191868
+                ]
+            },
+            "properties": {
+                "id": 216180125,
+                "tags.power": "substation",
+                "Type": "Way",
+                "Country": "BO",
+                "Area": null,
+                "tags.substation": null,
+                "tags.voltage": "115000"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -68.188169,
+                    -16.576377
+                ]
+            },
+            "properties": {
+                "id": 216666348,
+                "tags.power": "substation",
+                "Type": "Way",
+                "Country": "BO",
+                "Area": null,
+                "tags.substation": null,
+                "tags.voltage": "115000"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -66.293289,
+                    -17.731794
+                ]
+            },
+            "properties": {
+                "id": 216865123,
+                "tags.power": "substation",
+                "Type": "Way",
+                "Country": "BO",
+                "Area": null,
+                "tags.substation": null,
+                "tags.voltage": "115000"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -66.116327,
+                    -17.427939
+                ]
+            },
+            "properties": {
+                "id": 231406661,
+                "tags.power": "substation",
+                "Type": "Way",
+                "Country": "BO",
+                "Area": null,
+                "tags.substation": null,
+                "tags.voltage": "115000"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -67.044731,
+                    -17.96955
+                ]
+            },
+            "properties": {
+                "id": 254987871,
+                "tags.power": "substation",
+                "Type": "Way",
+                "Country": "BO",
+                "Area": null,
+                "tags.substation": "transmission",
+                "tags.voltage": "230000;115000"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -66.770673,
+                    -14.905303
+                ]
+            },
+            "properties": {
+                "id": 258832077,
+                "tags.power": "substation",
+                "Type": "Way",
+                "Country": "BO",
+                "Area": null,
+                "tags.substation": null,
+                "tags.voltage": "115000"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -65.630407,
+                    -15.000701
+                ]
+            },
+            "properties": {
+                "id": 260074648,
+                "tags.power": "substation",
+                "Type": "Way",
+                "Country": "BO",
+                "Area": null,
+                "tags.substation": null,
+                "tags.voltage": "115000"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -67.022302,
+                    -15.143031
+                ]
+            },
+            "properties": {
+                "id": 277946019,
+                "tags.power": "substation",
+                "Type": "Way",
+                "Country": "BO",
+                "Area": null,
+                "tags.substation": null,
+                "tags.voltage": "115000"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -65.268434,
+                    -19.044647
+                ]
+            },
+            "properties": {
+                "id": 316447122,
+                "tags.power": "substation",
+                "Type": "Way",
+                "Country": "BO",
+                "Area": null,
+                "tags.substation": null,
+                "tags.voltage": "69000"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -66.230868,
+                    -20.55558
+                ]
+            },
+            "properties": {
+                "id": 335148808,
+                "tags.power": "substation",
+                "Type": "Way",
+                "Country": "BO",
+                "Area": null,
+                "tags.substation": "transmission",
+                "tags.voltage": "115000;69000"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -65.590107,
+                    -19.525471
+                ]
+            },
+            "properties": {
+                "id": 370752875,
+                "tags.power": "substation",
+                "Type": "Way",
+                "Country": "BO",
+                "Area": null,
+                "tags.substation": null,
+                "tags.voltage": "69000"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -65.721973,
+                    -19.551862
+                ]
+            },
+            "properties": {
+                "id": 379884203,
+                "tags.power": "substation",
+                "Type": "Way",
+                "Country": "BO",
+                "Area": null,
+                "tags.substation": null,
+                "tags.voltage": "69000"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -66.224161,
+                    -20.944125
+                ]
+            },
+            "properties": {
+                "id": 392292266,
+                "tags.power": "substation",
+                "Type": "Way",
+                "Country": "BO",
+                "Area": null,
+                "tags.substation": null,
+                "tags.voltage": "69000"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -66.174044,
+                    -21.162236
+                ]
+            },
+            "properties": {
+                "id": 397574436,
+                "tags.power": "substation",
+                "Type": "Way",
+                "Country": "BO",
+                "Area": null,
+                "tags.substation": null,
+                "tags.voltage": "69000"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -65.726282,
+                    -21.437582
+                ]
+            },
+            "properties": {
+                "id": 404396154,
+                "tags.power": "substation",
+                "Type": "Way",
+                "Country": "BO",
+                "Area": null,
+                "tags.substation": null,
+                "tags.voltage": "69000"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -64.610915,
+                    -21.717739
+                ]
+            },
+            "properties": {
+                "id": 406780116,
+                "tags.power": "substation",
+                "Type": "Way",
+                "Country": "BO",
+                "Area": null,
+                "tags.substation": null,
+                "tags.voltage": "115000"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -64.728019,
+                    -21.486855
+                ]
+            },
+            "properties": {
+                "id": 407714873,
+                "tags.power": "substation",
+                "Type": "Way",
+                "Country": "BO",
+                "Area": null,
+                "tags.substation": null,
+                "tags.voltage": "115000"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -63.6299,
+                    -17.426786
+                ]
+            },
+            "properties": {
+                "id": 417910702,
+                "tags.power": "substation",
+                "Type": "Way",
+                "Country": "BO",
+                "Area": null,
+                "tags.substation": null,
+                "tags.voltage": "115000"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -64.305884,
+                    -19.320941
+                ]
+            },
+            "properties": {
+                "id": 423009950,
+                "tags.power": "substation",
+                "Type": "Way",
+                "Country": "BO",
+                "Area": null,
+                "tags.substation": null,
+                "tags.voltage": "115000"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -63.941685,
+                    -19.791017
+                ]
+            },
+            "properties": {
+                "id": 423151853,
+                "tags.power": "substation",
+                "Type": "Way",
+                "Country": "BO",
+                "Area": null,
+                "tags.substation": null,
+                "tags.voltage": "115000"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -63.152658,
+                    -17.786777
+                ]
+            },
+            "properties": {
+                "id": 442227990,
+                "tags.power": "substation",
+                "Type": "Way",
+                "Country": "BO",
+                "Area": null,
+                "tags.substation": null,
+                "tags.voltage": "230000"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -63.145217,
+                    -18.383435
+                ]
+            },
+            "properties": {
+                "id": 460934346,
+                "tags.power": "substation",
+                "Type": "Way",
+                "Country": "BO",
+                "Area": null,
+                "tags.substation": null,
+                "tags.voltage": "230000"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -65.442655,
+                    -17.009875
+                ]
+            },
+            "properties": {
+                "id": 461966459,
+                "tags.power": "substation",
+                "Type": "Way",
+                "Country": "BO",
+                "Area": null,
+                "tags.substation": null,
+                "tags.voltage": "230000"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -63.236644,
+                    -17.742589
+                ]
+            },
+            "properties": {
+                "id": 469542793,
+                "tags.power": "substation",
+                "Type": "Way",
+                "Country": "BO",
+                "Area": null,
+                "tags.substation": null,
+                "tags.voltage": "230000"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -68.118223,
+                    -16.400539
+                ]
+            },
+            "properties": {
+                "id": 473926444,
+                "tags.power": "substation",
+                "Type": "Way",
+                "Country": "BO",
+                "Area": null,
+                "tags.substation": "transmission",
+                "tags.voltage": "230000;115000"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -66.219254,
+                    -17.573273
+                ]
+            },
+            "properties": {
+                "id": 474212837,
+                "tags.power": "substation",
+                "Type": "Way",
+                "Country": "BO",
+                "Area": null,
+                "tags.substation": null,
+                "tags.voltage": "230000"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -63.561404,
+                    -21.693206
+                ]
+            },
+            "properties": {
+                "id": 497786539,
+                "tags.power": "substation",
+                "Type": "Way",
+                "Country": "BO",
+                "Area": null,
+                "tags.substation": null,
+                "tags.voltage": "230000"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -66.766688,
+                    -20.570946
+                ]
+            },
+            "properties": {
+                "id": 500093243,
+                "tags.power": "substation",
+                "Type": "Way",
+                "Country": "BO",
+                "Area": null,
+                "tags.substation": null,
+                "tags.voltage": "230000"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -67.276237,
+                    -17.396421
+                ]
+            },
+            "properties": {
+                "id": 500694792,
+                "tags.power": "substation",
+                "Type": "Way",
+                "Country": "BO",
+                "Area": null,
+                "tags.substation": null,
+                "tags.voltage": "115000"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -66.389803,
+                    -18.068259
+                ]
+            },
+            "properties": {
+                "id": 500727594,
+                "tags.power": "substation",
+                "Type": "Way",
+                "Country": "BO",
+                "Area": null,
+                "tags.substation": null,
+                "tags.voltage": "115000"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -65.285781,
+                    -17.627887
+                ]
+            },
+            "properties": {
+                "id": 504329583,
+                "tags.power": "substation",
+                "Type": "Way",
+                "Country": "BO",
+                "Area": null,
+                "tags.substation": null,
+                "tags.voltage": "115000"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -67.437159,
+                    -17.462282
+                ]
+            },
+            "properties": {
+                "id": 505671894,
+                "tags.power": "substation",
+                "Type": "Way",
+                "Country": "BO",
+                "Area": null,
+                "tags.substation": null,
+                "tags.voltage": "115000"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -64.892929,
+                    -14.853496
+                ]
+            },
+            "properties": {
+                "id": 521985273,
+                "tags.power": "substation",
+                "Type": "Way",
+                "Country": "BO",
+                "Area": null,
+                "tags.substation": null,
+                "tags.voltage": "115000"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -66.848698,
+                    -20.455164
+                ]
+            },
+            "properties": {
+                "id": 526868216,
+                "tags.power": "substation",
+                "Type": "Way",
+                "Country": "BO",
+                "Area": null,
+                "tags.substation": null,
+                "tags.voltage": "115000"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -66.836341,
+                    -18.281865
+                ]
+            },
+            "properties": {
+                "id": 527579633,
+                "tags.power": "substation",
+                "Type": "Way",
+                "Country": "BO",
+                "Area": null,
+                "tags.substation": null,
+                "tags.voltage": "115000"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -67.586717,
+                    -14.458522
+                ]
+            },
+            "properties": {
+                "id": 530945935,
+                "tags.power": "substation",
+                "Type": "Way",
+                "Country": "BO",
+                "Area": null,
+                "tags.substation": null,
+                "tags.voltage": "115000"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -65.473905,
+                    -19.346342
+                ]
+            },
+            "properties": {
+                "id": 533503946,
+                "tags.power": "substation",
+                "Type": "Way",
+                "Country": "BO",
+                "Area": null,
+                "tags.substation": null,
+                "tags.voltage": "69000"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -66.101534,
+                    -21.408919
+                ]
+            },
+            "properties": {
+                "id": 539565695,
+                "tags.power": "substation",
+                "Type": "Way",
+                "Country": "BO",
+                "Area": null,
+                "tags.substation": null,
+                "tags.voltage": "69000"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -65.597838,
+                    -22.071102
+                ]
+            },
+            "properties": {
+                "id": 541081227,
+                "tags.power": "substation",
+                "Type": "Way",
+                "Country": "BO",
+                "Area": null,
+                "tags.substation": null,
+                "tags.voltage": "69000"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -67.764009,
+                    -16.400788
+                ]
+            },
+            "properties": {
+                "id": 541081229,
+                "tags.power": "substation",
+                "Type": "Way",
+                "Country": "BO",
+                "Area": null,
+                "tags.substation": null,
+                "tags.voltage": "115000"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -67.880091,
+                    -15.504007
+                ]
+            },
+            "properties": {
+                "id": 563672922,
+                "tags.power": "substation",
+                "Type": "Way",
+                "Country": "BO",
+                "Area": null,
+                "tags.substation": null,
+                "tags.voltage": "115000"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -64.309656,
+                    -22.707758
+                ]
+            },
+            "properties": {
+                "id": 581302133,
+                "tags.power": "substation",
+                "Type": "Way",
+                "Country": "BO",
+                "Area": null,
+                "tags.substation": null,
+                "tags.voltage": "115000"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -63.541716,
+                    -17.389583
+                ]
+            },
+            "properties": {
+                "id": 583564410,
+                "tags.power": "substation",
+                "Type": "Way",
+                "Country": "BO",
+                "Area": null,
+                "tags.substation": null,
+                "tags.voltage": "230000"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -68.359805,
+                    -16.646057
+                ]
+            },
+            "properties": {
+                "id": 585101734,
+                "tags.power": "substation",
+                "Type": "Way",
+                "Country": "BO",
+                "Area": null,
+                "tags.substation": null,
+                "tags.voltage": "230000"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -63.519685,
+                    -19.978729
+                ]
+            },
+            "properties": {
+                "id": 585101737,
+                "tags.power": "substation",
+                "Type": "Way",
+                "Country": "BO",
+                "Area": null,
+                "tags.substation": null,
+                "tags.voltage": "115000"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -67.210676,
+                    -21.127015
+                ]
+            },
+            "properties": {
+                "id": 603346485,
+                "tags.power": "substation",
+                "Type": "Way",
+                "Country": "BO",
+                "Area": null,
+                "tags.substation": null,
+                "tags.voltage": "230000"
+            }
+        }
+    ]
+}

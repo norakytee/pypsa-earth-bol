@@ -412,31 +412,31 @@ if config["enable"].get("retrieve_cost_data", True):
             move(input[0], output[0])
 
 
-rule build_demand_profiles:
-    params:
-        snapshots=config["snapshots"],
-        load_options=config["load_options"],
-        countries=config["countries"],
-    input:
-        base_network="networks/" + RDIR + "base.nc",
-        regions="resources/" + RDIR + "bus_regions/regions_onshore.geojson",
-        load=load_data_paths,
-        #gadm_shapes="resources/" + RDIR + "shapes/MAR2.geojson",
-        #using this line instead of the following will test updated gadm shapes for MA.
-        #To use: downlaod file from the google drive and place it in resources/" + RDIR + "shapes/
-        #Link: https://drive.google.com/drive/u/1/folders/1dkW1wKBWvSY4i-XEuQFFBj242p0VdUlM
-        gadm_shapes="resources/" + RDIR + "shapes/gadm_shapes.geojson",
-    output:
-        "resources/" + RDIR + "demand_profiles.csv",
-    log:
-        "logs/" + RDIR + "build_demand_profiles.log",
-    benchmark:
-        "benchmarks/" + RDIR + "build_demand_profiles"
-    threads: 1
-    resources:
-        mem_mb=3000,
-    script:
-        "scripts/build_demand_profiles.py"
+# rule build_demand_profiles:
+#     params:
+#         snapshots=config["snapshots"],
+#         load_options=config["load_options"],
+#         countries=config["countries"],
+#     input:
+#         base_network="networks/" + RDIR + "base.nc",
+#         regions="resources/" + RDIR + "bus_regions/regions_onshore.geojson",
+#         load=load_data_paths,
+#         #gadm_shapes="resources/" + RDIR + "shapes/MAR2.geojson",
+#         #using this line instead of the following will test updated gadm shapes for MA.
+#         #To use: downlaod file from the google drive and place it in resources/" + RDIR + "shapes/
+#         #Link: https://drive.google.com/drive/u/1/folders/1dkW1wKBWvSY4i-XEuQFFBj242p0VdUlM
+#         gadm_shapes="resources/" + RDIR + "shapes/gadm_shapes.geojson",
+#     output:
+#         "resources/" + RDIR + "demand_profiles.csv",
+#     log:
+#         "logs/" + RDIR + "build_demand_profiles.log",
+#     benchmark:
+#         "benchmarks/" + RDIR + "build_demand_profiles"
+#     threads: 1
+#     resources:
+#         mem_mb=3000,
+#     script:
+#         "scripts/build_demand_profiles.py"
 
 
 rule build_renewable_profiles:

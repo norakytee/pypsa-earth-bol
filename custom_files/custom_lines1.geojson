@@ -1,0 +1,3170 @@
+{
+    "type": "FeatureCollection",
+    "crs": {
+        "type": "name",
+        "properties": {
+            "name": "urn:ogc:def:crs:OGC:1.3:CRS84"
+        }
+    },
+    "features": [
+        {
+            "type": "Feature",
+            "properties": {
+                "id": 7836124060,
+                "tags.power": "line",
+                "Type": "Way",
+                "Country": "BO",
+                "Length": 235660.0,
+                "tags.cables": 3,
+                "tags.voltage": 500000,
+                "tags.circuits": 1,
+                "tags.frequency": 50
+            },
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -64.526253,
+                        -17.211946
+                    ],
+                    [
+                        -66.220564,
+                        -17.573273
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": 5984889483,
+                "tags.power": "line",
+                "Type": "Way",
+                "Country": "BO",
+                "Length": 34570.0,
+                "tags.cables": 3,
+                "tags.voltage": 230000,
+                "tags.circuits": 1,
+                "tags.frequency": 50
+            },
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -63.282402,
+                        -17.575242
+                    ],
+                    [
+                        -63.152658,
+                        -17.786777
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": 2035876983,
+                "tags.power": "line",
+                "Type": "Way",
+                "Country": "BO",
+                "Length": 98780.0,
+                "tags.cables": 3,
+                "tags.voltage": 230000,
+                "tags.circuits": 1,
+                "tags.frequency": 50
+            },
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -63.282402,
+                        -17.575242
+                    ],
+                    [
+                        -62.64138,
+                        -17.060676
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": 1117936324,
+                "tags.power": "line",
+                "Type": "Way",
+                "Country": "BO",
+                "Length": 98780.0,
+                "tags.cables": 3,
+                "tags.voltage": 230000,
+                "tags.circuits": 1,
+                "tags.frequency": 50
+            },
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -63.282402,
+                        -17.575242
+                    ],
+                    [
+                        -62.64138,
+                        -17.060676
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": 1635802992,
+                "tags.power": "line",
+                "Type": "Way",
+                "Country": "BO",
+                "Length": 51400.0,
+                "tags.cables": 6,
+                "tags.voltage": 230000,
+                "tags.circuits": 2,
+                "tags.frequency": 50
+            },
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -63.217863,
+                        -18.065164
+                    ],
+                    [
+                        -63.145217,
+                        -18.383435
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": 5903353428,
+                "tags.power": "line",
+                "Type": "Way",
+                "Country": "BO",
+                "Length": 74750.0,
+                "tags.cables": 3,
+                "tags.voltage": 230000,
+                "tags.circuits": 1,
+                "tags.frequency": 50
+            },
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -64.526253,
+                        -17.211946
+                    ],
+                    [
+                        -63.893004,
+                        -17.394199
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": 8577356331,
+                "tags.power": "line",
+                "Type": "Way",
+                "Country": "BO",
+                "Length": 70780.0,
+                "tags.cables": 3,
+                "tags.voltage": 230000,
+                "tags.circuits": 1,
+                "tags.frequency": 50
+            },
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -63.893004,
+                        -17.394199
+                    ],
+                    [
+                        -63.282402,
+                        -17.575242
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": 8207512299,
+                "tags.power": "line",
+                "Type": "Way",
+                "Country": "BO",
+                "Length": 75330.0,
+                "tags.cables": 3,
+                "tags.voltage": 230000,
+                "tags.circuits": 1,
+                "tags.frequency": 50
+            },
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -64.526253,
+                        -17.211946
+                    ],
+                    [
+                        -65.161215,
+                        -16.999072
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": 7011074376,
+                "tags.power": "line",
+                "Type": "Way",
+                "Country": "BO",
+                "Length": 225600.0,
+                "tags.cables": 3,
+                "tags.voltage": 230000,
+                "tags.circuits": 1,
+                "tags.frequency": 50
+            },
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -64.526253,
+                        -17.211946
+                    ],
+                    [
+                        -66.220564,
+                        -17.573273
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": 2842108018,
+                "tags.power": "line",
+                "Type": "Way",
+                "Country": "BO",
+                "Length": 33620.0,
+                "tags.cables": 3,
+                "tags.voltage": 230000,
+                "tags.circuits": 1,
+                "tags.frequency": 50
+            },
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -65.161215,
+                        -16.999072
+                    ],
+                    [
+                        -65.442655,
+                        -17.009875
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": 9679394030,
+                "tags.power": "line",
+                "Type": "Way",
+                "Country": "BO",
+                "Length": 1850.0,
+                "tags.cables": 3,
+                "tags.voltage": 230000,
+                "tags.circuits": 1,
+                "tags.frequency": 50
+            },
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -64.516392,
+                        -17.197433
+                    ],
+                    [
+                        -64.526253,
+                        -17.211946
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": 5065768667,
+                "tags.power": "line",
+                "Type": "Way",
+                "Country": "BO",
+                "Length": 480.0,
+                "tags.cables": 3,
+                "tags.voltage": 230000,
+                "tags.circuits": 1,
+                "tags.frequency": 50
+            },
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -64.516392,
+                        -17.197433
+                    ],
+                    [
+                        -64.516392,
+                        -17.197433
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": 3269153033,
+                "tags.power": "line",
+                "Type": "Way",
+                "Country": "BO",
+                "Length": 1360.0,
+                "tags.cables": 3,
+                "tags.voltage": 230000,
+                "tags.circuits": 1,
+                "tags.frequency": 50
+            },
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -64.516392,
+                        -17.197433
+                    ],
+                    [
+                        -64.526253,
+                        -17.211946
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": 10847389282,
+                "tags.power": "line",
+                "Type": "Way",
+                "Country": "BO",
+                "Length": 230550.0,
+                "tags.cables": 3,
+                "tags.voltage": 230000,
+                "tags.circuits": 1,
+                "tags.frequency": 50
+            },
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -63.18877,
+                        -15.945274
+                    ],
+                    [
+                        -64.796088,
+                        -14.836302
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": 3060643025,
+                "tags.power": "line",
+                "Type": "Way",
+                "Country": "BO",
+                "Length": 230550.0,
+                "tags.cables": 3,
+                "tags.voltage": 230000,
+                "tags.circuits": 1,
+                "tags.frequency": 50
+            },
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -63.18877,
+                        -15.945274
+                    ],
+                    [
+                        -64.796088,
+                        -14.836302
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": 2830417320,
+                "tags.power": "line",
+                "Type": "Way",
+                "Country": "BO",
+                "Length": 82900.0,
+                "tags.cables": 3,
+                "tags.voltage": 230000,
+                "tags.circuits": 1,
+                "tags.frequency": 50
+            },
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -65.210247,
+                        -21.159084
+                    ],
+                    [
+                        -64.727985,
+                        -21.486837
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": 9974441394,
+                "tags.power": "line",
+                "Type": "Way",
+                "Country": "BO",
+                "Length": 82000.0,
+                "tags.cables": 3,
+                "tags.voltage": 230000,
+                "tags.circuits": 1,
+                "tags.frequency": 50
+            },
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -65.210247,
+                        -21.159084
+                    ],
+                    [
+                        -65.755479,
+                        -21.42692
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": 1342391373,
+                "tags.power": "line",
+                "Type": "Way",
+                "Country": "BO",
+                "Length": 193570.0,
+                "tags.cables": 3,
+                "tags.voltage": 230000,
+                "tags.circuits": 1,
+                "tags.frequency": 50
+            },
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -68.169479,
+                        -16.691566
+                    ],
+                    [
+                        -67.044731,
+                        -17.96955
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": 9427909131,
+                "tags.power": "line",
+                "Type": "Way",
+                "Country": "BO",
+                "Length": 79010.0,
+                "tags.cables": 3,
+                "tags.voltage": 230000,
+                "tags.circuits": 1,
+                "tags.frequency": 50
+            },
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -65.773168,
+                        -17.156959
+                    ],
+                    [
+                        -66.220564,
+                        -17.573273
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": 11495118242,
+                "tags.power": "line",
+                "Type": "Way",
+                "Country": "BO",
+                "Length": 79010.0,
+                "tags.cables": 3,
+                "tags.voltage": 230000,
+                "tags.circuits": 1,
+                "tags.frequency": 50
+            },
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -65.773168,
+                        -17.156959
+                    ],
+                    [
+                        -66.220564,
+                        -17.573273
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": 7932219446,
+                "tags.power": "line",
+                "Type": "Way",
+                "Country": "BO",
+                "Length": 36000.0,
+                "tags.cables": 6,
+                "tags.voltage": 230000,
+                "tags.circuits": 2,
+                "tags.frequency": 50
+            },
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -67.923726,
+                        -16.574612
+                    ],
+                    [
+                        -68.169479,
+                        -16.691566
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": 11368790173,
+                "tags.power": "line",
+                "Type": "Way",
+                "Country": "BO",
+                "Length": 59570.0,
+                "tags.cables": 3,
+                "tags.voltage": 230000,
+                "tags.circuits": 1,
+                "tags.frequency": 50
+            },
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -65.750613,
+                        -17.178102
+                    ],
+                    [
+                        -66.11722,
+                        -17.428451
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": 1995198495,
+                "tags.power": "line",
+                "Type": "Way",
+                "Country": "BO",
+                "Length": 3360.0,
+                "tags.cables": 3,
+                "tags.voltage": 230000,
+                "tags.circuits": 1,
+                "tags.frequency": 50
+            },
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -65.750613,
+                        -17.178102
+                    ],
+                    [
+                        -65.773168,
+                        -17.156959
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": 11602887592,
+                "tags.power": "line",
+                "Type": "Way",
+                "Country": "BO",
+                "Length": 64400.0,
+                "tags.cables": 3,
+                "tags.voltage": 230000,
+                "tags.circuits": 1,
+                "tags.frequency": 50
+            },
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -62.85447,
+                        -17.822856
+                    ],
+                    [
+                        -63.217863,
+                        -18.065164
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": 1725610665,
+                "tags.power": "line",
+                "Type": "Way",
+                "Country": "BO",
+                "Length": 64400.0,
+                "tags.cables": 3,
+                "tags.voltage": 230000,
+                "tags.circuits": 1,
+                "tags.frequency": 50
+            },
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -62.85447,
+                        -17.822856
+                    ],
+                    [
+                        -63.217863,
+                        -18.065164
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": 6295116318,
+                "tags.power": "line",
+                "Type": "Way",
+                "Country": "BO",
+                "Length": 115040.0,
+                "tags.cables": 3,
+                "tags.voltage": 230000,
+                "tags.circuits": 1,
+                "tags.frequency": 50
+            },
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -66.220564,
+                        -17.573273
+                    ],
+                    [
+                        -67.109151,
+                        -17.811603
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": 9073594174,
+                "tags.power": "line",
+                "Type": "Way",
+                "Country": "BO",
+                "Length": 24790.0,
+                "tags.cables": 3,
+                "tags.voltage": 230000,
+                "tags.circuits": 1,
+                "tags.frequency": 50
+            },
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -67.109151,
+                        -17.811603
+                    ],
+                    [
+                        -67.044731,
+                        -17.96955
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": 3648437265,
+                "tags.power": "line",
+                "Type": "Way",
+                "Country": "BO",
+                "Length": 157100.0,
+                "tags.cables": 3,
+                "tags.voltage": 230000,
+                "tags.circuits": 1,
+                "tags.frequency": 50
+            },
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -65.755479,
+                        -21.42692
+                    ],
+                    [
+                        -67.156044,
+                        -21.133749
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": 1907994245,
+                "tags.power": "line",
+                "Type": "Way",
+                "Country": "BO",
+                "Length": 22650.0,
+                "tags.cables": 3,
+                "tags.voltage": 230000,
+                "tags.circuits": 1,
+                "tags.frequency": 50
+            },
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -66.11722,
+                        -17.428451
+                    ],
+                    [
+                        -66.220564,
+                        -17.573273
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": 2912168238,
+                "tags.power": "line",
+                "Type": "Way",
+                "Country": "BO",
+                "Length": 45830.0,
+                "tags.cables": 3,
+                "tags.voltage": 230000,
+                "tags.circuits": 1,
+                "tags.frequency": 50
+            },
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -65.442684,
+                        -17.009819
+                    ],
+                    [
+                        -65.750613,
+                        -17.178102
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": 11525194938,
+                "tags.power": "line",
+                "Type": "Way",
+                "Country": "BO",
+                "Length": 16540.0,
+                "tags.cables": 3,
+                "tags.voltage": 230000,
+                "tags.circuits": 1,
+                "tags.frequency": 50
+            },
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -63.145837,
+                        -17.533684
+                    ],
+                    [
+                        -63.282402,
+                        -17.575242
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": 1487666159,
+                "tags.power": "line",
+                "Type": "Way",
+                "Country": "BO",
+                "Length": 16540.0,
+                "tags.cables": 3,
+                "tags.voltage": 230000,
+                "tags.circuits": 1,
+                "tags.frequency": 50
+            },
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -63.145837,
+                        -17.533684
+                    ],
+                    [
+                        -63.282402,
+                        -17.575242
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": 4826075440,
+                "tags.power": "line",
+                "Type": "Way",
+                "Country": "BO",
+                "Length": 54200.0,
+                "tags.cables": 3,
+                "tags.voltage": 230000,
+                "tags.circuits": 1,
+                "tags.frequency": 50
+            },
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -63.145837,
+                        -17.533684
+                    ],
+                    [
+                        -62.85447,
+                        -17.822856
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": 5975263136,
+                "tags.power": "line",
+                "Type": "Way",
+                "Country": "BO",
+                "Length": 54200.0,
+                "tags.cables": 3,
+                "tags.voltage": 230000,
+                "tags.circuits": 1,
+                "tags.frequency": 50
+            },
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -63.145837,
+                        -17.533684
+                    ],
+                    [
+                        -62.85447,
+                        -17.822856
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": 12066420508,
+                "tags.power": "line",
+                "Type": "Way",
+                "Country": "BO",
+                "Length": 39400.0,
+                "tags.cables": 3,
+                "tags.voltage": 230000,
+                "tags.circuits": 1,
+                "tags.frequency": 50
+            },
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -63.145837,
+                        -17.533684
+                    ],
+                    [
+                        -63.236644,
+                        -17.742589
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": 6972138019,
+                "tags.power": "line",
+                "Type": "Way",
+                "Country": "BO",
+                "Length": 74240.0,
+                "tags.cables": 3,
+                "tags.voltage": 230000,
+                "tags.circuits": 1,
+                "tags.frequency": 50
+            },
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -65.210247,
+                        -21.159084
+                    ],
+                    [
+                        -64.727985,
+                        -21.486837
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": 10689569651,
+                "tags.power": "line",
+                "Type": "Way",
+                "Country": "BO",
+                "Length": 31000.0,
+                "tags.cables": 3,
+                "tags.voltage": 230000,
+                "tags.circuits": 1,
+                "tags.frequency": 50
+            },
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -67.923726,
+                        -16.574612
+                    ],
+                    [
+                        -68.118223,
+                        -16.400539
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": 10930957128,
+                "tags.power": "line",
+                "Type": "Way",
+                "Country": "BO",
+                "Length": 181130.0,
+                "tags.cables": 3,
+                "tags.voltage": 230000,
+                "tags.circuits": 1,
+                "tags.frequency": 50
+            },
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -66.14098,
+                        -20.051275
+                    ],
+                    [
+                        -65.210247,
+                        -21.159084
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": 9597078946,
+                "tags.power": "line",
+                "Type": "Way",
+                "Country": "BO",
+                "Length": 244000.0,
+                "tags.cables": 3,
+                "tags.voltage": 230000,
+                "tags.circuits": 1,
+                "tags.frequency": 50
+            },
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -66.220564,
+                        -17.573273
+                    ],
+                    [
+                        -67.923726,
+                        -16.574612
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": 6304193852,
+                "tags.power": "line",
+                "Type": "Way",
+                "Country": "BO",
+                "Length": 244000.0,
+                "tags.cables": 3,
+                "tags.voltage": 230000,
+                "tags.circuits": 1,
+                "tags.frequency": 50
+            },
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -66.220564,
+                        -17.573273
+                    ],
+                    [
+                        -67.923726,
+                        -16.574612
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": 2336183400,
+                "tags.power": "line",
+                "Type": "Way",
+                "Country": "BO",
+                "Length": 650.0,
+                "tags.cables": 3,
+                "tags.voltage": 230000,
+                "tags.circuits": 1,
+                "tags.frequency": 50
+            },
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -66.220564,
+                        -17.573273
+                    ],
+                    [
+                        -66.219254,
+                        -17.573273
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": 6167932537,
+                "tags.power": "line",
+                "Type": "Way",
+                "Country": "BO",
+                "Length": 300.0,
+                "tags.cables": 3,
+                "tags.voltage": 230000,
+                "tags.circuits": 1,
+                "tags.frequency": 50
+            },
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -66.220564,
+                        -17.573273
+                    ],
+                    [
+                        -66.219254,
+                        -17.573273
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": 2713716306,
+                "tags.power": "line",
+                "Type": "Way",
+                "Country": "BO",
+                "Length": 138000.0,
+                "tags.cables": 3,
+                "tags.voltage": 230000,
+                "tags.circuits": 1,
+                "tags.frequency": 50
+            },
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -64.727985,
+                        -21.486837
+                    ],
+                    [
+                        -63.561404,
+                        -21.693206
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": 8683978956,
+                "tags.power": "line",
+                "Type": "Way",
+                "Country": "BO",
+                "Length": 138000.0,
+                "tags.cables": 3,
+                "tags.voltage": 230000,
+                "tags.circuits": 1,
+                "tags.frequency": 50
+            },
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -64.727985,
+                        -21.486837
+                    ],
+                    [
+                        -63.561404,
+                        -21.693206
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": 4641146394,
+                "tags.power": "line",
+                "Type": "Way",
+                "Country": "BO",
+                "Length": 141610.0,
+                "tags.cables": 3,
+                "tags.voltage": 230000,
+                "tags.circuits": 1,
+                "tags.frequency": 50
+            },
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -62.64138,
+                        -17.060676
+                    ],
+                    [
+                        -63.18877,
+                        -15.945274
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": 1118471612,
+                "tags.power": "line",
+                "Type": "Way",
+                "Country": "BO",
+                "Length": 141610.0,
+                "tags.cables": 3,
+                "tags.voltage": 230000,
+                "tags.circuits": 1,
+                "tags.frequency": 50
+            },
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -62.64138,
+                        -17.060676
+                    ],
+                    [
+                        -63.18877,
+                        -15.945274
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": 8322139477,
+                "tags.power": "line",
+                "Type": "Way",
+                "Country": "BO",
+                "Length": 4600.0,
+                "tags.cables": 3,
+                "tags.voltage": 230000,
+                "tags.circuits": 1,
+                "tags.frequency": 50
+            },
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -66.803164,
+                        -20.564192
+                    ],
+                    [
+                        -66.766688,
+                        -20.570946
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": 3330511507,
+                "tags.power": "line",
+                "Type": "Way",
+                "Country": "BO",
+                "Length": 62000.0,
+                "tags.cables": 3,
+                "tags.voltage": 230000,
+                "tags.circuits": 1,
+                "tags.frequency": 50
+            },
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -63.629968,
+                        -17.426749
+                    ],
+                    [
+                        -63.236644,
+                        -17.742589
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": 2442040720,
+                "tags.power": "line",
+                "Type": "Way",
+                "Country": "BO",
+                "Length": 102000.0,
+                "tags.cables": 3,
+                "tags.voltage": 230000,
+                "tags.circuits": 1,
+                "tags.frequency": 50
+            },
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -64.526253,
+                        -17.211946
+                    ],
+                    [
+                        -63.629968,
+                        -17.426749
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": 1309316397,
+                "tags.power": "line",
+                "Type": "Way",
+                "Country": "BO",
+                "Length": 246000.0,
+                "tags.cables": 3,
+                "tags.voltage": 230000,
+                "tags.circuits": 1,
+                "tags.frequency": 50
+            },
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -66.220564,
+                        -17.573273
+                    ],
+                    [
+                        -65.218687,
+                        -19.001312
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": 11959453731,
+                "tags.power": "line",
+                "Type": "Way",
+                "Country": "BO",
+                "Length": 177000.0,
+                "tags.cables": 3,
+                "tags.voltage": 230000,
+                "tags.circuits": 1,
+                "tags.frequency": 50
+            },
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -65.218687,
+                        -19.001312
+                    ],
+                    [
+                        -66.14098,
+                        -20.051275
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": 1302371731,
+                "tags.power": "line",
+                "Type": "Way",
+                "Country": "BO",
+                "Length": 91740.0,
+                "tags.cables": 3,
+                "tags.voltage": 230000,
+                "tags.circuits": 1,
+                "tags.frequency": 50
+            },
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -66.14098,
+                        -20.051275
+                    ],
+                    [
+                        -66.803164,
+                        -20.564192
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": 9941692373,
+                "tags.power": "line",
+                "Type": "Way",
+                "Country": "BO",
+                "Length": 75540.0,
+                "tags.cables": 3,
+                "tags.voltage": 230000,
+                "tags.circuits": 1,
+                "tags.frequency": 50
+            },
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -66.803164,
+                        -20.564192
+                    ],
+                    [
+                        -67.156044,
+                        -21.133749
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": 11097944296,
+                "tags.power": "line",
+                "Type": "Way",
+                "Country": "BO",
+                "Length": 5390.0,
+                "tags.cables": 3,
+                "tags.voltage": 115000,
+                "tags.circuits": 1,
+                "tags.frequency": 50
+            },
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -66.114585,
+                        -17.380501
+                    ],
+                    [
+                        -66.116327,
+                        -17.427939
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": 2590007963,
+                "tags.power": "line",
+                "Type": "Way",
+                "Country": "BO",
+                "Length": 5390.0,
+                "tags.cables": 3,
+                "tags.voltage": 115000,
+                "tags.circuits": 1,
+                "tags.frequency": 50
+            },
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -66.114585,
+                        -17.380501
+                    ],
+                    [
+                        -66.116327,
+                        -17.427939
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": 8145343714,
+                "tags.power": "line",
+                "Type": "Way",
+                "Country": "BO",
+                "Length": 63890.0,
+                "tags.cables": 3,
+                "tags.voltage": 115000,
+                "tags.circuits": 1,
+                "tags.frequency": 50
+            },
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -67.560632,
+                        -15.844503
+                    ],
+                    [
+                        -67.834986,
+                        -16.28604
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": 11999094531,
+                "tags.power": "line",
+                "Type": "Way",
+                "Country": "BO",
+                "Length": 45590.0,
+                "tags.cables": 3,
+                "tags.voltage": 115000,
+                "tags.circuits": 1,
+                "tags.frequency": 50
+            },
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -67.036498,
+                        -17.713892
+                    ],
+                    [
+                        -67.276237,
+                        -17.396421
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": 1686888444,
+                "tags.power": "line",
+                "Type": "Way",
+                "Country": "BO",
+                "Length": 29580.0,
+                "tags.cables": 3,
+                "tags.voltage": 115000,
+                "tags.circuits": 1,
+                "tags.frequency": 50
+            },
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -67.036498,
+                        -17.713892
+                    ],
+                    [
+                        -67.044731,
+                        -17.96955
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": 2735090590,
+                "tags.power": "line",
+                "Type": "Way",
+                "Country": "BO",
+                "Length": 97810.0,
+                "tags.cables": 3,
+                "tags.voltage": 115000,
+                "tags.circuits": 1,
+                "tags.frequency": 50
+            },
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -66.575829,
+                        -18.410663
+                    ],
+                    [
+                        -65.837719,
+                        -18.878811
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": 2684379609,
+                "tags.power": "line",
+                "Type": "Way",
+                "Country": "BO",
+                "Length": 43380.0,
+                "tags.cables": 3,
+                "tags.voltage": 115000,
+                "tags.circuits": 1,
+                "tags.frequency": 50
+            },
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -66.575829,
+                        -18.410663
+                    ],
+                    [
+                        -66.389803,
+                        -18.068259
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": 1064099230,
+                "tags.power": "line",
+                "Type": "Way",
+                "Country": "BO",
+                "Length": 33500.0,
+                "tags.cables": 3,
+                "tags.voltage": 115000,
+                "tags.circuits": 1,
+                "tags.frequency": 50
+            },
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -66.818309,
+                        -18.278069
+                    ],
+                    [
+                        -66.575829,
+                        -18.410663
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": 10212293571,
+                "tags.power": "line",
+                "Type": "Way",
+                "Country": "BO",
+                "Length": 45030.0,
+                "tags.cables": 3,
+                "tags.voltage": 115000,
+                "tags.circuits": 1,
+                "tags.frequency": 50
+            },
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -67.834986,
+                        -16.28604
+                    ],
+                    [
+                        -68.118223,
+                        -16.400539
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": 8685352768,
+                "tags.power": "line",
+                "Type": "Way",
+                "Country": "BO",
+                "Length": 38110.0,
+                "tags.cables": 3,
+                "tags.voltage": 115000,
+                "tags.circuits": 1,
+                "tags.frequency": 50
+            },
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -65.948465,
+                        -17.205929
+                    ],
+                    [
+                        -66.114585,
+                        -17.380501
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": 2636095616,
+                "tags.power": "line",
+                "Type": "Way",
+                "Country": "BO",
+                "Length": 6390.0,
+                "tags.cables": 3,
+                "tags.voltage": 115000,
+                "tags.circuits": 1,
+                "tags.frequency": 50
+            },
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -65.948465,
+                        -17.205929
+                    ],
+                    [
+                        -65.822969,
+                        -17.191868
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": 3278488442,
+                "tags.power": "line",
+                "Type": "Way",
+                "Country": "BO",
+                "Length": 19620.0,
+                "tags.cables": 3,
+                "tags.voltage": 115000,
+                "tags.circuits": 1,
+                "tags.frequency": 50
+            },
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -65.707404,
+                        -19.483256
+                    ],
+                    [
+                        -65.800775,
+                        -19.607625
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": 11389066647,
+                "tags.power": "line",
+                "Type": "Way",
+                "Country": "BO",
+                "Length": 74450.0,
+                "tags.cables": 3,
+                "tags.voltage": 115000,
+                "tags.circuits": 1,
+                "tags.frequency": 50
+            },
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -67.977121,
+                        -16.041461
+                    ],
+                    [
+                        -67.560632,
+                        -15.844503
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": 2283774636,
+                "tags.power": "line",
+                "Type": "Way",
+                "Country": "BO",
+                "Length": 6280.0,
+                "tags.cables": 3,
+                "tags.voltage": 115000,
+                "tags.circuits": 1,
+                "tags.frequency": 50
+            },
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -68.18184,
+                        -16.565951
+                    ],
+                    [
+                        -68.188169,
+                        -16.576377
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": 11179551296,
+                "tags.power": "line",
+                "Type": "Way",
+                "Country": "BO",
+                "Length": 7950.0,
+                "tags.cables": 3,
+                "tags.voltage": 115000,
+                "tags.circuits": 1,
+                "tags.frequency": 50
+            },
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -68.18184,
+                        -16.565951
+                    ],
+                    [
+                        -68.188169,
+                        -16.576377
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": 5926128265,
+                "tags.power": "line",
+                "Type": "Way",
+                "Country": "BO",
+                "Length": 84360.0,
+                "tags.cables": 3,
+                "tags.voltage": 115000,
+                "tags.circuits": 1,
+                "tags.frequency": 50
+            },
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -65.837719,
+                        -18.878811
+                    ],
+                    [
+                        -65.800775,
+                        -19.607625
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": 3901119938,
+                "tags.power": "line",
+                "Type": "Way",
+                "Country": "BO",
+                "Length": 73210.0,
+                "tags.cables": 3,
+                "tags.voltage": 115000,
+                "tags.circuits": 1,
+                "tags.frequency": 50
+            },
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -65.800775,
+                        -19.607625
+                    ],
+                    [
+                        -66.14098,
+                        -20.051275
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": 3409774360,
+                "tags.power": "line",
+                "Type": "Way",
+                "Country": "BO",
+                "Length": 67690.0,
+                "tags.cables": 3,
+                "tags.voltage": 115000,
+                "tags.circuits": 1,
+                "tags.frequency": 50
+            },
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -65.85752,
+                        -17.515665
+                    ],
+                    [
+                        -65.285781,
+                        -17.627887
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": 2048231543,
+                "tags.power": "line",
+                "Type": "Way",
+                "Country": "BO",
+                "Length": 40920.0,
+                "tags.cables": 3,
+                "tags.voltage": 115000,
+                "tags.circuits": 1,
+                "tags.frequency": 50
+            },
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -67.109151,
+                        -17.811603
+                    ],
+                    [
+                        -67.437159,
+                        -17.462282
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": 4616921201,
+                "tags.power": "line",
+                "Type": "Way",
+                "Country": "BO",
+                "Length": 40920.0,
+                "tags.cables": 3,
+                "tags.voltage": 115000,
+                "tags.circuits": 1,
+                "tags.frequency": 50
+            },
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -67.109151,
+                        -17.811603
+                    ],
+                    [
+                        -67.437159,
+                        -17.462282
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": 3748071545,
+                "tags.power": "line",
+                "Type": "Way",
+                "Country": "BO",
+                "Length": 11140.0,
+                "tags.cables": 3,
+                "tags.voltage": 115000,
+                "tags.circuits": 1,
+                "tags.frequency": 50
+            },
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -64.796088,
+                        -14.836302
+                    ],
+                    [
+                        -64.892929,
+                        -14.853496
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": 5028395475,
+                "tags.power": "line",
+                "Type": "Way",
+                "Country": "BO",
+                "Length": 11140.0,
+                "tags.cables": 3,
+                "tags.voltage": 115000,
+                "tags.circuits": 1,
+                "tags.frequency": 50
+            },
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -64.796088,
+                        -14.836302
+                    ],
+                    [
+                        -64.892929,
+                        -14.853496
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": 6585847572,
+                "tags.power": "line",
+                "Type": "Way",
+                "Country": "BO",
+                "Length": 7240.0,
+                "tags.cables": 3,
+                "tags.voltage": 115000,
+                "tags.circuits": 1,
+                "tags.frequency": 50
+            },
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -65.685776,
+                        -19.520262
+                    ],
+                    [
+                        -65.707404,
+                        -19.483256
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": 6625430747,
+                "tags.power": "line",
+                "Type": "Way",
+                "Country": "BO",
+                "Length": 81390.0,
+                "tags.cables": 3,
+                "tags.voltage": 115000,
+                "tags.circuits": 1,
+                "tags.frequency": 50
+            },
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -67.156044,
+                        -21.133749
+                    ],
+                    [
+                        -67.273941,
+                        -20.730130
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": 8176648758,
+                "tags.power": "line",
+                "Type": "Way",
+                "Country": "BO",
+                "Length": 104420.0,
+                "tags.cables": 3,
+                "tags.voltage": 115000,
+                "tags.circuits": 1,
+                "tags.frequency": 50
+            },
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -66.14098,
+                        -20.051275
+                    ],
+                    [
+                        -66.230868,
+                        -20.55558
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": 1594273463,
+                "tags.power": "line",
+                "Type": "Way",
+                "Country": "BO",
+                "Length": 14940.0,
+                "tags.cables": 3,
+                "tags.voltage": 115000,
+                "tags.circuits": 1,
+                "tags.frequency": 50
+            },
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -65.980758,
+                        -17.384384
+                    ],
+                    [
+                        -66.114585,
+                        -17.380501
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": 9798379736,
+                "tags.power": "line",
+                "Type": "Way",
+                "Country": "BO",
+                "Length": 24110.0,
+                "tags.cables": 3,
+                "tags.voltage": 115000,
+                "tags.circuits": 1,
+                "tags.frequency": 50
+            },
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -65.980758,
+                        -17.384384
+                    ],
+                    [
+                        -65.85752,
+                        -17.515665
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": 1872975398,
+                "tags.power": "line",
+                "Type": "Way",
+                "Country": "BO",
+                "Length": 31370.0,
+                "tags.cables": 3,
+                "tags.voltage": 115000,
+                "tags.circuits": 1,
+                "tags.frequency": 50
+            },
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -65.822969,
+                        -17.191868
+                    ],
+                    [
+                        -65.980758,
+                        -17.384384
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": 11801455423,
+                "tags.power": "line",
+                "Type": "Way",
+                "Country": "BO",
+                "Length": 8930.0,
+                "tags.cables": 3,
+                "tags.voltage": 115000,
+                "tags.circuits": 1,
+                "tags.frequency": 50
+            },
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -65.822969,
+                        -17.191868
+                    ],
+                    [
+                        -65.750613,
+                        -17.178102
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": 5271137939,
+                "tags.power": "line",
+                "Type": "Way",
+                "Country": "BO",
+                "Length": 7760.0,
+                "tags.cables": 3,
+                "tags.voltage": 115000,
+                "tags.circuits": 1,
+                "tags.frequency": 50
+            },
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -68.188169,
+                        -16.576377
+                    ],
+                    [
+                        -68.169479,
+                        -16.691566
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": 11955109040,
+                "tags.power": "line",
+                "Type": "Way",
+                "Country": "BO",
+                "Length": 88180.0,
+                "tags.cables": 3,
+                "tags.voltage": 115000,
+                "tags.circuits": 1,
+                "tags.frequency": 50
+            },
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -65.218687,
+                        -19.001312
+                    ],
+                    [
+                        -65.685776,
+                        -19.520262
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": 5581763561,
+                "tags.power": "line",
+                "Type": "Way",
+                "Country": "BO",
+                "Length": 43230.0,
+                "tags.cables": 3,
+                "tags.voltage": 115000,
+                "tags.circuits": 1,
+                "tags.frequency": 50
+            },
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -66.293289,
+                        -17.731794
+                    ],
+                    [
+                        -66.389803,
+                        -18.068259
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": 1333044421,
+                "tags.power": "line",
+                "Type": "Way",
+                "Country": "BO",
+                "Length": 46470.0,
+                "tags.cables": 3,
+                "tags.voltage": 115000,
+                "tags.circuits": 1,
+                "tags.frequency": 50
+            },
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -66.116327,
+                        -17.427939
+                    ],
+                    [
+                        -66.293289,
+                        -17.731794
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": 9834358805,
+                "tags.power": "line",
+                "Type": "Way",
+                "Country": "BO",
+                "Length": 120120.0,
+                "tags.cables": 3,
+                "tags.voltage": 115000,
+                "tags.circuits": 1,
+                "tags.frequency": 50
+            },
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -66.116327,
+                        -17.427939
+                    ],
+                    [
+                        -67.036498,
+                        -17.713892
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": 8338153795,
+                "tags.power": "line",
+                "Type": "Way",
+                "Country": "BO",
+                "Length": 43270.0,
+                "tags.cables": 3,
+                "tags.voltage": 115000,
+                "tags.circuits": 1,
+                "tags.frequency": 50
+            },
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -67.044731,
+                        -17.96955
+                    ],
+                    [
+                        -66.818309,
+                        -18.278069
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": 3600735654,
+                "tags.power": "line",
+                "Type": "Way",
+                "Country": "BO",
+                "Length": 104500.0,
+                "tags.cables": 3,
+                "tags.voltage": 115000,
+                "tags.circuits": 1,
+                "tags.frequency": 50
+            },
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -67.560632,
+                        -15.844503
+                    ],
+                    [
+                        -67.022302,
+                        -15.143031
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": 9932179595,
+                "tags.power": "line",
+                "Type": "Way",
+                "Country": "BO",
+                "Length": 4850.0,
+                "tags.cables": 3,
+                "tags.voltage": 115000,
+                "tags.circuits": 1,
+                "tags.frequency": 50
+            },
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -66.818309,
+                        -18.278069
+                    ],
+                    [
+                        -66.836341,
+                        -18.281865
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": 8139511717,
+                "tags.power": "line",
+                "Type": "Way",
+                "Country": "BO",
+                "Length": 138500.0,
+                "tags.cables": 3,
+                "tags.voltage": 115000,
+                "tags.circuits": 1,
+                "tags.frequency": 50
+            },
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -66.770673,
+                        -14.905303
+                    ],
+                    [
+                        -65.630407,
+                        -15.000701
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": 2140782312,
+                "tags.power": "line",
+                "Type": "Way",
+                "Country": "BO",
+                "Length": 84800.0,
+                "tags.cables": 3,
+                "tags.voltage": 115000,
+                "tags.circuits": 1,
+                "tags.frequency": 50
+            },
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -65.630407,
+                        -15.000701
+                    ],
+                    [
+                        -64.892929,
+                        -14.853496
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": 11937286203,
+                "tags.power": "line",
+                "Type": "Way",
+                "Country": "BO",
+                "Length": 40400.0,
+                "tags.cables": 3,
+                "tags.voltage": 115000,
+                "tags.circuits": 1,
+                "tags.frequency": 50
+            },
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -67.022302,
+                        -15.143031
+                    ],
+                    [
+                        -66.770673,
+                        -14.905303
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": 11876532396,
+                "tags.power": "line",
+                "Type": "Way",
+                "Country": "BO",
+                "Length": 118000.0,
+                "tags.cables": 3,
+                "tags.voltage": 115000,
+                "tags.circuits": 1,
+                "tags.frequency": 50
+            },
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -67.022302,
+                        -15.143031
+                    ],
+                    [
+                        -67.586717,
+                        -14.458522
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": 3570035353,
+                "tags.power": "line",
+                "Type": "Way",
+                "Country": "BO",
+                "Length": 42850.0,
+                "tags.cables": 3,
+                "tags.voltage": 69000,
+                "tags.circuits": 1,
+                "tags.frequency": 50
+            },
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -65.268434,
+                        -19.044647
+                    ],
+                    [
+                        -65.473905,
+                        -19.346342
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": 3291733974,
+                "tags.power": "line",
+                "Type": "Way",
+                "Country": "BO",
+                "Length": 12010.0,
+                "tags.cables": 3,
+                "tags.voltage": 69000,
+                "tags.circuits": 1,
+                "tags.frequency": 50
+            },
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -65.268434,
+                        -19.044647
+                    ],
+                    [
+                        -65.218687,
+                        -19.001312
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": 11186209240,
+                "tags.power": "line",
+                "Type": "Way",
+                "Country": "BO",
+                "Length": 1570.0,
+                "tags.cables": 3,
+                "tags.voltage": 69000,
+                "tags.circuits": 1,
+                "tags.frequency": 50
+            },
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -66.230868,
+                        -20.55558
+                    ],
+                    [
+                        -66.224161,
+                        -20.944125
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": 11096708578,
+                "tags.power": "line",
+                "Type": "Way",
+                "Country": "BO",
+                "Length": 15990.0,
+                "tags.cables": 3,
+                "tags.voltage": 69000,
+                "tags.circuits": 1,
+                "tags.frequency": 50
+            },
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -65.590107,
+                        -19.525471
+                    ],
+                    [
+                        -65.721973,
+                        -19.551862
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": 5245673651,
+                "tags.power": "line",
+                "Type": "Way",
+                "Country": "BO",
+                "Length": 31240.0,
+                "tags.cables": 3,
+                "tags.voltage": 69000,
+                "tags.circuits": 1,
+                "tags.frequency": 50
+            },
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -65.590107,
+                        -19.525471
+                    ],
+                    [
+                        -65.473905,
+                        -19.346342
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": 6762070056,
+                "tags.power": "line",
+                "Type": "Way",
+                "Country": "BO",
+                "Length": 10020.0,
+                "tags.cables": 3,
+                "tags.voltage": 69000,
+                "tags.circuits": 1,
+                "tags.frequency": 50
+            },
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -65.721973,
+                        -19.551862
+                    ],
+                    [
+                        -65.800775,
+                        -19.607625
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": 5088167483,
+                "tags.power": "line",
+                "Type": "Way",
+                "Country": "BO",
+                "Length": 7000.0,
+                "tags.cables": 3,
+                "tags.voltage": 69000,
+                "tags.circuits": 1,
+                "tags.frequency": 50
+            },
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -65.685776,
+                        -19.520262
+                    ],
+                    [
+                        -65.721973,
+                        -19.551862
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": 11558123029,
+                "tags.power": "line",
+                "Type": "Way",
+                "Country": "BO",
+                "Length": 27480.0,
+                "tags.cables": 3,
+                "tags.voltage": 69000,
+                "tags.circuits": 1,
+                "tags.frequency": 50
+            },
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -66.224161,
+                        -20.944125
+                    ],
+                    [
+                        -66.174044,
+                        -21.162236
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": 7699682497,
+                "tags.power": "line",
+                "Type": "Way",
+                "Country": "BO",
+                "Length": 29490.0,
+                "tags.cables": 3,
+                "tags.voltage": 69000,
+                "tags.circuits": 1,
+                "tags.frequency": 50
+            },
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -66.174044,
+                        -21.162236
+                    ],
+                    [
+                        -66.101534,
+                        -21.408919
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": 9975699421,
+                "tags.power": "line",
+                "Type": "Way",
+                "Country": "BO",
+                "Length": 36560.0,
+                "tags.cables": 3,
+                "tags.voltage": 69000,
+                "tags.circuits": 1,
+                "tags.frequency": 50
+            },
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -65.755479,
+                        -21.42692
+                    ],
+                    [
+                        -66.101534,
+                        -21.408919
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": 211471178,
+                "tags.power": "line",
+                "Type": "Way",
+                "Country": "BO",
+                "Length": 5300.0,
+                "tags.cables": 3,
+                "tags.voltage": 69000,
+                "tags.circuits": 1,
+                "tags.frequency": 50
+            },
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -65.755479,
+                        -21.42692
+                    ],
+                    [
+                        -65.726282,
+                        -21.437582
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": 52149683,
+                "tags.power": "line",
+                "Type": "Way",
+                "Country": "BO",
+                "Length": 77500.0,
+                "tags.cables": 3,
+                "tags.voltage": 69000,
+                "tags.circuits": 1,
+                "tags.frequency": 50
+            },
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -65.726282,
+                        -21.437582
+                    ],
+                    [
+                        -65.597838,
+                        -22.071102
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": 591181987,
+                "tags.power": "line",
+                "Type": "Way",
+                "Country": "BO",
+                "Length": 11000.0,
+                "tags.cables": 3,
+                "tags.voltage": 115000,
+                "tags.circuits": 1,
+                "tags.frequency": 50
+            },
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -67.834986,
+                        -16.28604
+                    ],
+                    [
+                        -67.764009,
+                        -16.400788
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": 935740859,
+                "tags.power": "line",
+                "Type": "Way",
+                "Country": "BO",
+                "Length": 52900.0,
+                "tags.cables": 3,
+                "tags.voltage": 115000,
+                "tags.circuits": 1,
+                "tags.frequency": 50
+            },
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -67.560632,
+                        -15.844503
+                    ],
+                    [
+                        -67.880091,
+                        -15.504007
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": 604673162,
+                "tags.power": "line",
+                "Type": "Way",
+                "Country": "BO",
+                "Length": 138000.0,
+                "tags.cables": 3,
+                "tags.voltage": 115000,
+                "tags.circuits": 1,
+                "tags.frequency": 50
+            },
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -64.610915,
+                        -21.717739
+                    ],
+                    [
+                        -64.309656,
+                        -22.707758
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": 1187560986,
+                "tags.power": "line",
+                "Type": "Way",
+                "Country": "BO",
+                "Length": 44200.0,
+                "tags.cables": 3,
+                "tags.voltage": 115000,
+                "tags.circuits": 1,
+                "tags.frequency": 50
+            },
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -64.728019,
+                        -21.486855
+                    ],
+                    [
+                        -64.610915,
+                        -21.717739
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": 71312658,
+                "tags.power": "line",
+                "Type": "Way",
+                "Country": "BO",
+                "Length": 13200.0,
+                "tags.cables": 3,
+                "tags.voltage": 230000,
+                "tags.circuits": 1,
+                "tags.frequency": 50
+            },
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -63.629968,
+                        -17.426749
+                    ],
+                    [
+                        -63.541716,
+                        -17.389583
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": 1183053792,
+                "tags.power": "line",
+                "Type": "Way",
+                "Country": "BO",
+                "Length": 22900.0,
+                "tags.cables": 3,
+                "tags.voltage": 230000,
+                "tags.circuits": 1,
+                "tags.frequency": 50
+            },
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -68.169479,
+                        -16.691566
+                    ],
+                    [
+                        -68.359805,
+                        -16.646057
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": 868669670,
+                "tags.power": "line",
+                "Type": "Way",
+                "Country": "BO",
+                "Length": 22900.0,
+                "tags.cables": 3,
+                "tags.voltage": 230000,
+                "tags.circuits": 1,
+                "tags.frequency": 50
+            },
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -68.169479,
+                        -16.691566
+                    ],
+                    [
+                        -68.359805,
+                        -16.646057
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": 433304102,
+                "tags.power": "line",
+                "Type": "Way",
+                "Country": "BO",
+                "Length": 120600.0,
+                "tags.cables": 3,
+                "tags.voltage": 115000,
+                "tags.circuits": 1,
+                "tags.frequency": 50
+            },
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -65.218687,
+                        -19.001312
+                    ],
+                    [
+                        -64.305884,
+                        -19.320941
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": 869106671,
+                "tags.power": "line",
+                "Type": "Way",
+                "Country": "BO",
+                "Length": 69200.0,
+                "tags.cables": 3,
+                "tags.voltage": 115000,
+                "tags.circuits": 1,
+                "tags.frequency": 50
+            },
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -64.305884,
+                        -19.320941
+                    ],
+                    [
+                        -63.941685,
+                        -19.791017
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": 104355897,
+                "tags.power": "line",
+                "Type": "Way",
+                "Country": "BO",
+                "Length": 52800.0,
+                "tags.cables": 3,
+                "tags.voltage": 115000,
+                "tags.circuits": 1,
+                "tags.frequency": 50
+            },
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -63.941685,
+                        -19.791017
+                    ],
+                    [
+                        -63.519685,
+                        -19.978729
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": 1053115078,
+                "tags.power": "line",
+                "Type": "Way",
+                "Country": "BO",
+                "Length": 7900.0,
+                "tags.cables": 3,
+                "tags.voltage": 230000,
+                "tags.circuits": 1,
+                "tags.frequency": 50
+            },
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -67.156044,
+                        -21.133749
+                    ],
+                    [
+                        -67.210676,
+                        -21.127015
+                    ]
+                ]
+            }
+        }
+    ]
+}
