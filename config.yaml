@@ -145,9 +145,9 @@ electricity:
     H2: 168
 
   extendable_carriers:
-    Generator: [solar, onwind, oil, OCGT, CCGT, biomass, geothermal, ror]
-    StorageUnit: []  # battery, H2
-    Store: [battery]
+    Generator: [] #solar, onwind, oil, OCGT, CCGT, biomass, geothermal, ror]
+    StorageUnit: [] #battery, H2]
+    Store: [] #battery]
     Link: []  # H2 pipeline
 
   powerplants_filter: false 
@@ -301,7 +301,7 @@ renewable:
     carriers: [ror, PHS, hydro]
     PHS_max_hours: 6
     hydro_max_hours: "energy_capacity_totals_by_country"  # not active
-    hydro_max_hours_default: 6.0  # (optional, default 6) Default value of max_hours for hydro when NaN values are found
+    hydro_max_hours_default: 1352  # (optional, default 6) Default value of max_hours for hydro when NaN values are found
     clip_min_inflow: 1.0
     extendable: true
     normalization:
@@ -324,7 +324,7 @@ costs:
     investment: 0
     lifetime: 25
     CO2 intensity: 0
-    discount rate: 0.07
+    discount rate: 0.04
   marginal_cost: # EUR/MWh
     solar: 0.01
     onwind: 0.015
@@ -392,7 +392,7 @@ solving:
     method: 2 # barrier (=ipm)
     crossover: 0
     BarConvTol: 1.e-5
-    FeasibilityTol: 1.e-8
+    FeasibilityTol: 1.e-4
     AggFill: 0
     PreDual: 0
     GURO_PAR_BARDENSETHRESH: 200

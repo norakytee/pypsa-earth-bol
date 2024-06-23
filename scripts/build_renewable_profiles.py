@@ -530,9 +530,9 @@ if __name__ == "__main__":
 
     check_cutout_match(cutout=cutout, geodf=regions)
 
-    if not snakemake.wildcards.technology.startswith("hydro"):
-        # the region should be restricted for non-hydro technologies, as the hydro potential is calculated across hydrobasins which may span beyond the region of the country
-        cutout = filter_cutout_region(cutout, regions)
+    # if not snakemake.wildcards.technology.startswith("hydro"):
+    #     # the region should be restricted for non-hydro technologies, as the hydro potential is calculated across hydrobasins which may span beyond the region of the country
+    #     cutout = filter_cutout_region(cutout, regions)
 
     if snakemake.params.alternative_clustering:
         regions = gpd.GeoDataFrame(
@@ -559,129 +559,130 @@ if __name__ == "__main__":
 
     # filter plants for hydro
     if snakemake.wildcards.technology.startswith("hydro"):
-        country_shapes = gpd.read_file(paths.country_shapes)
-        hydrobasins = gpd.read_file(resource["hydrobasins"])
-        ppls = load_powerplants(snakemake.input.powerplants)
+        # country_shapes = gpd.read_file(paths.country_shapes)
+        # hydrobasins = gpd.read_file(resource["hydrobasins"])
+        # ppls = load_powerplants(snakemake.input.powerplants)
 
-        hydro_ppls = ppls[ppls.carrier == "hydro"]
+        # hydro_ppls = ppls[ppls.carrier == "hydro"]
 
-        # commented out as rivers may span across multiple countries
-        # hydrobasins = hydrobasins[
-        #     [
-        #         any(country_shapes.geometry.intersects(geom))
-        #         for geom in hydrobasins.geometry
-        #     ]
-        # ]  # exclude hydrobasins shapes that do not intersect the countries of interest
+        # # commented out as rivers may span across multiple countries
+        # # hydrobasins = hydrobasins[
+        # #     [
+        # #         any(country_shapes.geometry.intersects(geom))
+        # #         for geom in hydrobasins.geometry
+        # #     ]
+        # # ]  # exclude hydrobasins shapes that do not intersect the countries of interest
 
-        # select busbar whose location (p) belongs to at least one hydrobasin geometry
-        # if extendable option is true, all buses are included
-        # otherwise only where hydro powerplants are available are considered
-        if snakemake.params.alternative_clustering:
-            filter_bus_to_consider = regions.index.map(
-                lambda bus_id: config.get("extendable", False)
-                | (bus_id in hydro_ppls.region_id.values)
-            )
-        ### TODO: quickfix. above case and the below case should by unified
-        if snakemake.params.alternative_clustering == False:
-            filter_bus_to_consider = regions.index.map(
-                lambda bus_id: config.get("extendable", False)
-                | (bus_id in hydro_ppls.bus.values)
-            )
-        bus_to_consider = regions.index[filter_bus_to_consider]
+        # # select busbar whose location (p) belongs to at least one hydrobasin geometry
+        # # if extendable option is true, all buses are included
+        # # otherwise only where hydro powerplants are available are considered
+        # if snakemake.params.alternative_clustering:
+        #     filter_bus_to_consider = regions.index.map(
+        #         lambda bus_id: config.get("extendable", False)
+        #         | (bus_id in hydro_ppls.region_id.values)
+        #     )
+        # ### TODO: quickfix. above case and the below case should by unified
+        # if snakemake.params.alternative_clustering == False:
+        #     filter_bus_to_consider = regions.index.map(
+        #         lambda bus_id: config.get("extendable", False)
+        #         | (bus_id in hydro_ppls.bus.values)
+        #     )
+        # bus_to_consider = regions.index[filter_bus_to_consider]
 
-        # identify subset of buses within the hydrobasins
-        filter_bus_in_hydrobasins = regions[filter_bus_to_consider].apply(
-            lambda row: any(hydrobasins.geometry.contains(Point(row["x"], row["y"]))),
-            axis=1,
-        )
-        bus_in_hydrobasins = filter_bus_in_hydrobasins[filter_bus_in_hydrobasins].index
+        # # identify subset of buses within the hydrobasins
+        # filter_bus_in_hydrobasins = regions[filter_bus_to_consider].apply(
+        #     lambda row: any(hydrobasins.geometry.contains(Point(row["x"], row["y"]))),
+        #     axis=1,
+        # )
+        # bus_in_hydrobasins = filter_bus_in_hydrobasins[filter_bus_in_hydrobasins].index
 
-        bus_notin_hydrobasins = list(
-            set(bus_to_consider).difference(set(bus_in_hydrobasins))
-        )
+        # bus_notin_hydrobasins = list(
+        #     set(bus_to_consider).difference(set(bus_in_hydrobasins))
+        # )
 
-        resource["plants"] = regions.rename(
-            columns={"x": "lon", "y": "lat", "country": "countries"}
-        ).loc[bus_in_hydrobasins, ["lon", "lat", "countries", "shape_id"]]
+        # resource["plants"] = regions.rename(
+        #     columns={"x": "lon", "y": "lat", "country": "countries"}
+        # ).loc[bus_in_hydrobasins, ["lon", "lat", "countries", "shape_id"]]
 
-        resource["plants"]["installed_hydro"] = [
-            True if (bus_id in hydro_ppls.bus.values) else False
-            for bus_id in resource["plants"].index
-        ]
+        # resource["plants"]["installed_hydro"] = [
+        #     True if (bus_id in hydro_ppls.bus.values) else False
+        #     for bus_id in resource["plants"].index
+        # ]
 
-        # get normalization before executing runoff
-        normalization = None
-        if ("normalization" in config) and isinstance(config["normalization"], dict):
-            normalization = config.pop("normalization")
+        # # get normalization before executing runoff
+        # normalization = None
+        # if ("normalization" in config) and isinstance(config["normalization"], dict):
+        #     normalization = config.pop("normalization")
 
-        # check if there are hydro powerplants
-        if resource["plants"].empty:
-            # when no powerplants are available save an empty file
-            xr.DataArray(
-                dims=["plant", "time"], coords={"plant": []}, name="inflow"
-            ).to_netcdf(snakemake.output.profile)
-        else:
-            # otherwise perform the calculations
-            inflow = correction_factor * func(capacity_factor=True, **resource)
-            if snakemake.params.alternative_clustering:
-                inflow["plant"] = regions.shape_id.loc[inflow["plant"]].values
+        # # check if there are hydro powerplants
+        # if resource["plants"].empty:
+        #     # when no powerplants are available save an empty file
+        #     xr.DataArray(
+        #         dims=["plant", "time"], coords={"plant": []}, name="inflow"
+        #     ).to_netcdf(snakemake.output.profile)
+        # else:
+        #     # otherwise perform the calculations
+        #     inflow = correction_factor * func(capacity_factor=True, **resource)
+        #     if snakemake.params.alternative_clustering:
+        #         inflow["plant"] = regions.shape_id.loc[inflow["plant"]].values
 
-            if "clip_min_inflow" in config:
-                inflow = inflow.where(inflow >= config["clip_min_inflow"], 0)
+        #     if "clip_min_inflow" in config:
+        #         inflow = inflow.where(inflow >= config["clip_min_inflow"], 0)
 
-            # check if normalization field belongs to the settings and it is not false
-            if normalization:
-                method = normalization["method"]
-                norm_year = normalization.get("year", int(inflow.time[0].dt.year))
-                if method == "hydro_capacities":
-                    path_hydro_capacities = snakemake.input.hydro_capacities
-                    normalize_using_yearly = (
-                        get_hydro_capacities_annual_hydro_generation(
-                            path_hydro_capacities, countries, norm_year
-                        )
-                        * config.get("multiplier", 1.0)
-                    )
-                elif method == "eia":
-                    path_eia_stats = snakemake.input.eia_hydro_generation
-                    normalize_using_yearly = get_eia_annual_hydro_generation(
-                        path_eia_stats, countries
-                    ) * config.get("multiplier", 1.0)
+        #     # check if normalization field belongs to the settings and it is not false
+        #     if normalization:
+        #         method = normalization["method"]
+        #         norm_year = normalization.get("year", int(inflow.time[0].dt.year))
+        #         if method == "hydro_capacities":
+        #             path_hydro_capacities = snakemake.input.hydro_capacities
+        #             normalize_using_yearly = (
+        #                 get_hydro_capacities_annual_hydro_generation(
+        #                     path_hydro_capacities, countries, norm_year
+        #                 )
+        #                 * config.get("multiplier", 1.0)
+        #             )
+        #         elif method == "eia":
+        #             path_eia_stats = snakemake.input.eia_hydro_generation
+        #             normalize_using_yearly = get_eia_annual_hydro_generation(
+        #                 path_eia_stats, countries
+        #             ) * config.get("multiplier", 1.0)
 
-                inflow = rescale_hydro(
-                    resource["plants"], inflow, normalize_using_yearly, norm_year
-                )
-                logger.info(
-                    f"Hydro normalization method '{method}' on year-statistics {norm_year}"
-                )
-            else:
-                logger.info("No hydro normalization")
+        #         inflow = rescale_hydro(
+        #             resource["plants"], inflow, normalize_using_yearly, norm_year
+        #         )
+        #         logger.info(
+        #             f"Hydro normalization method '{method}' on year-statistics {norm_year}"
+        #         )
+        #     else:
+        #         logger.info("No hydro normalization")
 
-            inflow *= config.get("multiplier", 1.0)
+        #     inflow *= config.get("multiplier", 1.0)
 
-            # add zero values for out of hydrobasins elements
-            if len(bus_notin_hydrobasins) > 0:
-                regions_notin = regions.loc[
-                    bus_notin_hydrobasins, ["x", "y", "country"]
-                ]
-                logger.warning(
-                    f"Buses {bus_notin_hydrobasins} are not contained into hydrobasins."
-                    f"Setting empty time series. Bus location:\n{regions_notin}"
-                )
+        #     # add zero values for out of hydrobasins elements
+        #     if len(bus_notin_hydrobasins) > 0:
+        #         regions_notin = regions.loc[
+        #             bus_notin_hydrobasins, ["x", "y", "country"]
+        #         ]
+        #         logger.warning(
+        #             f"Buses {bus_notin_hydrobasins} are not contained into hydrobasins."
+        #             f"Setting empty time series. Bus location:\n{regions_notin}"
+        #         )
 
-                # initialize empty DataArray and append to inflow
-                notin_data = xr.DataArray(
-                    np.zeros(
-                        (len(bus_notin_hydrobasins), inflow.coords["time"].shape[0])
-                    ),
-                    dims=("plant", "time"),
-                    coords=dict(
-                        plant=bus_notin_hydrobasins,
-                        time=inflow.coords["time"],
-                    ),
-                )
-                inflow = xr.concat([inflow, notin_data], dim="plant")
+        #         # initialize empty DataArray and append to inflow
+        #         notin_data = xr.DataArray(
+        #             np.zeros(
+        #                 (len(bus_notin_hydrobasins), inflow.coords["time"].shape[0])
+        #             ),
+        #             dims=("plant", "time"),
+        #             coords=dict(
+        #                 plant=bus_notin_hydrobasins,
+        #                 time=inflow.coords["time"],
+        #             ),
+        #         )
+        #         inflow = xr.concat([inflow, notin_data], dim="plant")
 
-            inflow.rename("inflow").to_netcdf(snakemake.output.profile)
+        #     inflow.rename("inflow").to_netcdf(snakemake.output.profile)
+        pass
     else:
         capacity_per_sqkm = config["capacity_per_sqkm"]
 

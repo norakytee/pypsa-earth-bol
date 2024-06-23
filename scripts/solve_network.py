@@ -110,7 +110,7 @@ def prepare_network(n, solve_opts):
         n.add("Carrier", "Load")
         buses_i = n.buses.query("carrier == 'AC'").index
         if not np.isscalar(load_shedding):
-            load_shedding = 8e3  # Eur/kWh
+            load_shedding = 22 #8e3  # Eur/kWh
         # intersect between macroeconomic and surveybased
         # willingness to pay
         # http://journal.frontiersin.org/article/10.3389/fenrg.2015.00055/full)
@@ -122,7 +122,7 @@ def prepare_network(n, solve_opts):
             bus=buses_i,
             carrier="load",
             sign=1e-3,  # Adjust sign to measure p and p_nom in kW instead of MW
-            marginal_cost=load_shedding,
+            marginal_cost=22,
             p_nom=1e9,  # kW
         )
 
@@ -481,12 +481,15 @@ def new_capacity_constraint(n):
     solar_i = n.generators.query("carrier == 'solar'").index
     onwind_i = n.generators.query("carrier == 'onwind'").index
     biomass_i = n.generators.query("carrier == 'biomass'").index
+    ror_i = n.generators.query("carrier == 'ror'& p_nom_extendable").index
+    hydro_i = n.storage_units.query("carrier == 'hydro'").index
     geothermal_i = n.generators.query("carrier == 'geothermal'").index
     ccgt_i = n.generators.query("carrier == 'CCGT'").index
     ocgt_i = n.generators.query("carrier == 'OCGT'").index
     oil_i = n.generators.query("carrier == 'oil'").index
-    all_i = solar_i.append([onwind_i, biomass_i, geothermal_i, ccgt_i, ocgt_i, oil_i])
+    all_i = solar_i.append([onwind_i, biomass_i, ror_i, geothermal_i, ccgt_i, ocgt_i, oil_i])
     p_nom_current = get_var(n, "Generator", "p_nom")[all_i]
+    #p_nom_storage = get_var(n, "StorageUnit", "p_store")[hydro_i]
     lhs = linexpr((1,p_nom_current)).sum()
     rhs = n.generators.loc[all_i,'p_nom'].sum() + 400
     define_constraints(n, lhs, '<=', rhs, 'Generator', 'new_capacity')
@@ -537,17 +540,23 @@ def new_geothermal_total_capacity_constraint(n):
 
     
 def apply_cp_constraints_bio(n):
+    cp = -0.72
+    carrier = 'biomass'
+    gen_indices = n.generators.query(f"carrier == '{carrier}'").index
+    for i in gen_indices:
+        lhs = linexpr((1, get_var(n, "Generator", "p").loc[:, i]), (cp,get_var(n, "Generator", "p_nom").loc[i])).sum()
+        rhs = 0
+        define_constraints(n, lhs, "<=", rhs, carrier, "cp_constraint")
+
+def apply_cp_constraints_bio_monte_carlo(n):
     cp = 0.72
     carrier = 'biomass'
-    hours_in_year = -1
     gen_indices = n.generators.query(f"carrier == '{carrier}'").index
-    #gen_p = get_var(n, "Generator", "p").loc[n.snapshots[:], gen_indices]
-    #gen_p_nom = get_var(n, "Generator", "p_nom")[gen_indices]
-    coeff = hours_in_year * cp
-    lhs = linexpr((1, get_var(n, "Generator", "p").loc[n.snapshots[:], gen_indices]), (coeff, get_var(n, "Generator", "p_nom")[gen_indices]))
-    rhs = 0
-    #print(lhs)
-    define_constraints(n, lhs, "<=", rhs, carrier, "cp_constraint")
+    for i in gen_indices:
+        capacity_fixed = n.generators.p_nom[i]
+        lhs = linexpr((1, get_var(n, "Generator", "p").loc[:, i])).sum()
+        rhs = capacity_fixed * cp * 8760
+        define_constraints(n, lhs, "<=", rhs, carrier, "cp_constraint")
  
  
 def apply_cp_constraints_CCGT(n):
@@ -555,12 +564,9 @@ def apply_cp_constraints_CCGT(n):
     carrier = 'CCGT'
     hours_in_year = -1
     gen_indices = n.generators.query(f"carrier == '{carrier}'").index
-    #gen_p = get_var(n, "Generator", "p").loc[n.snapshots[:], gen_indices]
-    #gen_p_nom = get_var(n, "Generator", "p_nom")[gen_indices]
     coeff = hours_in_year * cp
-    lhs = linexpr((1, get_var(n, "Generator", "p").loc[n.snapshots[:], gen_indices]), (coeff, get_var(n, "Generator", "p_nom")[gen_indices]))
+    lhs = linexpr((1, get_var(n, "Generator", "p").loc[n.snapshots[:], gen_indices]), (coeff, get_var(n, "Generator", "p_nom")[gen_indices])).sum()
     rhs = 0
-    #print(lhs)
     define_constraints(n, lhs, "<=", rhs, carrier, "cp_constraint")
    
 def apply_cp_constraints_OCGT(n):
@@ -568,12 +574,9 @@ def apply_cp_constraints_OCGT(n):
     carrier = 'OCGT'
     hours_in_year = -1
     gen_indices = n.generators.query(f"carrier == '{carrier}'").index
-    #gen_p = get_var(n, "Generator", "p").loc[n.snapshots[:], gen_indices]
-    #gen_p_nom = get_var(n, "Generator", "p_nom")[gen_indices]
     coeff = hours_in_year * cp
-    lhs = linexpr((1, get_var(n, "Generator", "p").loc[n.snapshots[:], gen_indices]), (coeff, get_var(n, "Generator", "p_nom")[gen_indices]))
+    lhs = linexpr((1, get_var(n, "Generator", "p").loc[n.snapshots[:], gen_indices]), (coeff, get_var(n, "Generator", "p_nom")[gen_indices])).sum()
     rhs = 0
-    #print(lhs)
     define_constraints(n, lhs, "<=", rhs, carrier, "cp_constraint")
    
 def apply_cp_constraints_geo(n):
@@ -581,37 +584,83 @@ def apply_cp_constraints_geo(n):
     carrier = 'geothermal'
     hours_in_year = -1
     gen_indices = n.generators.query(f"carrier == '{carrier}'").index
-    #gen_p = get_var(n, "Generator", "p").loc[n.snapshots[:], gen_indices]
-    #gen_p_nom = get_var(n, "Generator", "p_nom")[gen_indices]
     coeff = hours_in_year * cp
-    lhs = linexpr((1, get_var(n, "Generator", "p").loc[n.snapshots[:], gen_indices]), (coeff, get_var(n, "Generator", "p_nom")[gen_indices]))
+    lhs = linexpr((1, get_var(n, "Generator", "p").loc[n.snapshots[:], gen_indices]), (coeff, get_var(n, "Generator", "p_nom")[gen_indices])).sum()
     rhs = 0
-    #print(lhs)
     define_constraints(n, lhs, "<=", rhs, carrier, "cp_constraint")
    
-# def apply_cp_constraints_ror_ext(n):
-#     cp = 0.5
-#     carrier = 'ror'
-#     hours_in_year = -1
-#     gen_indices = n.generators.query(f"carrier == '{carrier}' & p_nom_extendable").index
+def apply_cp_constraints_ror_ext(n):
+    cp = 0.5
+    carrier = 'ror'
+    hours_in_year = -1
+    gen_indices = n.generators.query(f"carrier == '{carrier}' & p_nom_extendable").index
+    coeff = hours_in_year * cp
+    lhs = linexpr((1, get_var(n, "Generator", "p").loc[n.snapshots[:], gen_indices]), (coeff, get_var(n, "Generator", "p_nom")[gen_indices])).sum()
+    rhs = 0
+    define_constraints(n, lhs, "<=", rhs, carrier, "cp_constraint")
 
-#     coeff = hours_in_year * cp
-#     lhs = linexpr((1, get_var(n, "Generator", "p").loc[n.snapshots[:], gen_indices]), (coeff, get_var(n, "Generator", "p_nom")[gen_indices]))
-#     rhs = 0
-#     define_constraints(n, lhs, "<=", rhs, carrier, "cp_constraint")
+def apply_cp_constraints_hydro_fix(n):
+    cp = 0.5
+    carrier = 'hydro'
+    hours_in_year = 8760
+    gen_indices = n.storage_units.query(f"carrier == '{carrier}'").index
+    coeff = n.storage_units.loc[gen_indices, 'p_nom'] * hours_in_year * cp
+    lhs = linexpr((1, get_var(n, "StorageUnit", "p_dispatch").loc[n.snapshots[:], gen_indices])).sum()
+    rhs = coeff
+    define_constraints(n, lhs, "<=", rhs, carrier, "cp_constraint_fix")
 
 def apply_cp_constraints_ror_fix(n):
     cp = 0.5
     carrier = 'ror'
     hours_in_year = 8760
     gen_indices = n.generators.query(f"carrier == '{carrier}' & not p_nom_extendable").index
-    coeff = n.generators.loc[gen_indices, 'p_nom'].sum() * hours_in_year * cp
-    lhs = linexpr((1, get_var(n, "Generator", "p").loc[n.snapshots[:], gen_indices])).sum().sum()
-    #rhs = n.generators.loc[gen_indices, 'p_nom'].sum() * hours_in_year * cp
-    print(coeff)
+    coeff = n.generators.loc[gen_indices, 'p_nom'] * hours_in_year * cp
+    lhs = linexpr((1, get_var(n, "Generator", "p").loc[n.snapshots[:], gen_indices])).sum()
     rhs = coeff
     define_constraints(n, lhs, "<=", rhs, carrier, "cp_constraint_fix")
 
+def reliability_constraint_line(n, matrix):
+    line_i = n.lines.index
+    snapshots = n.snapshots
+
+    for line in line_i:
+        for snapshot in snapshots:
+            if matrix.loc[snapshot, line] == 0.0:
+                s = get_var(n, "Line", "s").loc[snapshot, line]
+                lhs = linexpr((1, abs(s)))
+                rhs = 0
+                define_constraints(n, lhs, "=", rhs, "Line", "reliability_line_constraint")
+
+def reliability_constraint(n, matrix):
+    for carrier in n.generators[~n.generators.carrier.str.contains('load')].carrier.unique():
+        gen_indices = n.generators.query(f"carrier == '{carrier}'").index
+        snapshots = n.snapshots
+        for gen in gen_indices:
+            for snapshot in snapshots:
+                if matrix.loc[snapshot, gen] == 0.0:
+                    s = get_var(n, "Generator", "p").loc[snapshot, gen]
+                    lhs = linexpr((1, abs(s)))
+                    rhs = 0
+                    define_constraints(n, lhs, "=", rhs, "Generators", "reliability_constraint")
+
+def reliability_constraint_storage(n, matrix):
+    storage_i = n.storage_units.index
+    snapshots = n.snapshots
+    for storage in storage_i:
+        for snapshot in snapshots:
+            if matrix.loc[snapshot, storage] == 0.0:
+                s = get_var(n, "StorageUnit", "p_dispatch").loc[snapshot, storage]
+                lhs = linexpr((1, abs(s)))
+                rhs = 0
+                define_constraints(n, lhs, "=", rhs, "Storage", "reliability_storage_constraint")
+
+
+# line_matrix = pd.read_csv("C:/Users/noraky/Documents/Masteroppgave/pypsa-earth/matrices/lines_matrix.csv", index_col=0)
+# generator_matrix = pd.read_csv("C:/Users/noraky/Documents/Masteroppgave/pypsa-earth/matrices/generators_matrix.csv", index_col=0)
+# storage_unit_matrix = pd.read_csv("C:/Users/noraky/Documents/Masteroppgave/pypsa-earth/matrices/storage_units_matrix.csv", index_col=0)
+# line_matrix.index = pd.to_datetime(line_matrix.index)
+# generator_matrix.index = pd.to_datetime(generator_matrix.index)
+# storage_unit_matrix.index = pd.to_datetime(storage_unit_matrix.index)
 
 def extra_functionality(n, snapshots):
     """
@@ -639,19 +688,26 @@ def extra_functionality(n, snapshots):
     for o in opts:
         if "EQ" in o:
             add_EQ_constraints(n, o)
+
     add_battery_constraints(n)
-    new_capacity_constraint(n)
-    new_geothermal_capacity_constraint(n)
-    new_battery_capaity_constraint(n)
-    new_battery_storage_constraint(n)
-    new_biomass_total_capacity_constraint(n)
-    new_geothermal_total_capacity_constraint(n)
-    apply_cp_constraints_bio(n)
-    apply_cp_constraints_CCGT(n)
-    apply_cp_constraints_OCGT(n)
-    apply_cp_constraints_geo(n)
+    #new_capacity_constraint(n)
+    #new_geothermal_capacity_constraint(n)
+    #new_battery_capaity_constraint(n)
+    #new_battery_storage_constraint(n)
+    #new_biomass_total_capacity_constraint(n)
+    #new_geothermal_total_capacity_constraint(n)
+    #apply_cp_constraints_bio(n)
+    #apply_cp_constraints_CCGT(n)
+    #apply_cp_constraints_OCGT(n)
+    #apply_cp_constraints_geo(n)
     #apply_cp_constraints_ror_ext(n)
-    apply_cp_constraints_ror_fix(n)
+    #apply_cp_constraints_hydro_fix(n)
+    #apply_cp_constraints_ror_fix(n)
+    apply_cp_constraints_bio_monte_carlo(n)
+    # reliability_constraint_line(n,line_matrix)
+    # reliability_constraint(n, generator_matrix)
+    # reliability_constraint_storage(n, storage_unit_matrix)
+    
 
 
 

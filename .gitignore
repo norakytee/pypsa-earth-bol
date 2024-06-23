@@ -42,6 +42,7 @@ test/tmp/
 configs/scenarios/config.*.yaml
 !configs/scenarios/config.NG.yaml
 dask-worker-space/
+network_bnze_2040/
 
 # Untrack some Jupyter changes
 .ipynb_checkpoints
